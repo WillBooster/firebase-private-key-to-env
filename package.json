@@ -1,0 +1,49 @@
+{
+  "name": "firebase-private-key-to-env",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/WillBooster/firebase-private-key-to-env.git",
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "main": "src/index.ts",
+  "scripts": {
+    "cleanup": "yarn format && yarn lint-fix",
+    "format": "sort-package-json && yarn prettify",
+    "lint": "eslint \"./{src,__tests__}/**/*.{js,jsx,ts,tsx}\" --color",
+    "lint-fix": "yarn lint --fix",
+    "prettify": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,json5,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\" --color",
+    "start": "yarn && babel-node -x .js,.jsx,.es6,.es,.ts src/index.ts",
+    "typecheck": "tsc --noEmit --Pretty"
+  },
+  "prettier": "@willbooster/prettier-config",
+  "dependencies": {
+    "core-js": "3.8.1",
+    "yargs": "16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.12.8",
+    "@babel/core": "7.12.9",
+    "@babel/node": "7.12.6",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-numeric-separator": "7.12.7",
+    "@babel/preset-env": "7.12.7",
+    "@babel/preset-typescript": "7.12.7",
+    "@types/micromatch": "^4",
+    "@types/node": "14.14.12",
+    "@types/yargs": "15.0.11",
+    "@typescript-eslint/eslint-plugin": "4.9.1",
+    "@typescript-eslint/parser": "4.9.1",
+    "@willbooster/eslint-config-ts": "5.1.1",
+    "@willbooster/prettier-config": "5.1.0",
+    "@willbooster/renovate-config": "5.1.1",
+    "eslint": "7.15.0",
+    "eslint-config-prettier": "7.0.0",
+    "eslint-import-resolver-node": "0.3.4",
+    "eslint-plugin-import": "2.22.1",
+    "husky": "4.3.5",
+    "lint-staged": "10.5.3",
+    "micromatch": "4.0.2",
+    "prettier": "2.2.1",
+    "sort-package-json": "1.48.0",
+    "typescript": "4.1.2"
+  }
+}
