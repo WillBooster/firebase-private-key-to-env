@@ -14,8 +14,9 @@ for (const arg of argv._) {
   const json = JSON.parse(jsonText);
 
   const dirName = path.dirname(filePath);
+  const outFilePath = path.join(dirName, `.env.${path.basename(filePath, '.json')}`);
   fs.writeFileSync(
-    path.join(dirName, `.env.${path.basename(filePath, '.json')}`),
+    outFilePath,
     `
 FIREBASE_PROJECT_ID=${JSON.stringify(json.project_id)}
 FIREBASE_PRIVATE_KEY_ID=${JSON.stringify(json.private_key_id)}
@@ -28,4 +29,5 @@ FIREBASE_AUTH_PROVIDER_X509_CERT_URL=${JSON.stringify(json.auth_provider_x509_ce
 FIREBASE_CLIENT_X509_CERT_URL=${JSON.stringify(json.client_x509_cert_url)}
 `.trim()
   );
+  console.log(outFilePath);
 }
