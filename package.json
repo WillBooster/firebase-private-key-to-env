@@ -36,7 +36,7 @@
     "@willbooster/prettier-config": "6.2.1",
     "@willbooster/renovate-config": "6.2.1",
     "eslint": "7.15.0",
-    "eslint-config-prettier": "7.0.0",
+    "eslint-config-prettier": "8.1.0",
     "eslint-import-resolver-node": "0.3.4",
     "eslint-plugin-import": "2.22.1",
     "husky": "4.3.5",

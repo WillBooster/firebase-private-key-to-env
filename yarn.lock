@@ -2526,14 +2526,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:7.0.0":
-  version: 7.0.0
-  resolution: "eslint-config-prettier@npm:7.0.0"
+"eslint-config-prettier@npm:8.1.0":
+  version: 8.1.0
+  resolution: "eslint-config-prettier@npm:8.1.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: b7c543080e32829dba5f3db970c5f3c3b47f1de8df89b4226105afbecae561e026b6fe9f2cb16bf08ab1a6f1f544d9303c9c8c0919cbb51a9d2c8a640779624a
+  checksum: 409d3a071f8228d4c958a6a9be9d5ec2b357ce21b7b6cbb137096cade2c31f008a0a3c3533dee8979c0cd944f220a959710b30fd86f8b96f0ef1f4f557d740b3
   languageName: node
   linkType: hard
 
@@ -2960,7 +2960,7 @@ __metadata:
     "@willbooster/renovate-config": 6.2.1
     core-js: 3.8.1
     eslint: 7.15.0
-    eslint-config-prettier: 7.0.0
+    eslint-config-prettier: 8.1.0
     eslint-import-resolver-node: 0.3.4
     eslint-plugin-import: 2.22.1
     husky: 4.3.5
