@@ -1328,6 +1328,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@gar/promisify@npm:^1.0.1":
+  version: 1.1.2
+  resolution: "@gar/promisify@npm:1.1.2"
+  checksum: 51f64c558516f776e2f8950fc70532a9a0d166a0493bf17b2c5b588f8f9ae6a6e80e330591554b52d97336094c6d4168b96972fb92ceb1e774176d79a0fbb236
+  languageName: node
+  linkType: hard
+
 "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.2":
   version: 2.1.8-no-fsevents.2
   resolution: "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.2"
@@ -1374,6 +1381,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@npmcli/fs@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@npmcli/fs@npm:1.0.0"
+  dependencies:
+    "@gar/promisify": ^1.0.1
+    semver: ^7.3.5
+  checksum: 9be7dcf9915fc5ab0bbcd7efaefad5fda43ccf06a80d69f8aea3e34f54a75e51cee17b4b42b02fc85864a33e4017e1f4cc23b321058746d91249d8d4c4bb0a0f
+  languageName: node
+  linkType: hard
+
 "@npmcli/move-file@npm:^1.0.1":
   version: 1.1.2
   resolution: "@npmcli/move-file@npm:1.1.2"
@@ -1415,6 +1432,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/json5@npm:^0.0.29":
+  version: 0.0.29
+  resolution: "@types/json5@npm:0.0.29"
+  checksum: 66e9ac0143ec521522c7bb670301e9836ee886207eeed1aab6d4854a1b19b404ab3a54cd8d449f9b1f13acc357f540be96f8ac2d1e86e301eab52ae0f9a4066f
+  languageName: node
+  linkType: hard
+
 "@types/micromatch@npm:4.0.1":
   version: 4.0.1
   resolution: "@types/micromatch@npm:4.0.1"
@@ -1432,9 +1456,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 16.7.1
-  resolution: "@types/node@npm:16.7.1"
-  checksum: 65347e932d8dde3b94d5e24d17ba85e79763797b80da85af96a8c4b89e72f7aea1b61ea04f471a70c9db4ab9273fb678808e9400c539912c291819268622598f
+  version: 16.7.6
+  resolution: "@types/node@npm:16.7.6"
+  checksum: 558d9fdd7083cdc7d13e898d3cfaa2f3a0ca4104a245b8229ca7dadf6f66009f1ad2be10820058c9b7c5f90f8e1a50b4caba2d2a4d6e797d79aca4475122e363
   languageName: node
   linkType: hard
 
@@ -1986,7 +2010,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.16.6, browserslist@npm:^4.16.7":
+"browserslist@npm:^4.16.6, browserslist@npm:^4.16.8":
   version: 4.16.8
   resolution: "browserslist@npm:4.16.8"
   dependencies:
@@ -2009,9 +2033,10 @@ __metadata:
   linkType: hard
 
 "cacache@npm:^15.0.5":
-  version: 15.2.0
-  resolution: "cacache@npm:15.2.0"
+  version: 15.3.0
+  resolution: "cacache@npm:15.3.0"
   dependencies:
+    "@npmcli/fs": ^1.0.0
     "@npmcli/move-file": ^1.0.1
     chownr: ^2.0.0
     fs-minipass: ^2.0.0
@@ -2029,7 +2054,7 @@ __metadata:
     ssri: ^8.0.1
     tar: ^6.0.2
     unique-filename: ^1.1.1
-  checksum: e7d6a93c34a409abb6050e4e09a103e859f0b53f592772a714e9e828f735cee8974cb36bd3e2d08fd78c2198d6d4b6005d0f1b3974e891a2ea4bd0ef02c80593
+  checksum: 3ababe9fa2b32ba6a65b3c6efd2d373be6640c379ac54ef3b837b284b8d1eb3c20601f31460c6391c651684e2cd02791ae175834f1ae059f869dad49014f31a4
   languageName: node
   linkType: hard
 
@@ -2068,9 +2093,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001251":
-  version: 1.0.30001251
-  resolution: "caniuse-lite@npm:1.0.30001251"
-  checksum: 6d7d4b93bdaa4d7859b830c5afdfa40ef2cc15a88edfae446c6ded1ae77ae4de50b5b5ba63c4a56ecdde5a530f26252ef56b86abbe7aa0dda5de8f1d793a454e
+  version: 1.0.30001252
+  resolution: "caniuse-lite@npm:1.0.30001252"
+  checksum: 582b612da175ca08f90ee387eaeaf1c1f539c3910992f4739339461a75d66f7f53ce27724b1655ac747d5440e3528662e21b53f5b4c254bd699e3978e8fda2d9
   languageName: node
   linkType: hard
 
@@ -2317,12 +2342,12 @@ __metadata:
   linkType: hard
 
 "core-js-compat@npm:^3.14.0, core-js-compat@npm:^3.16.0":
-  version: 3.16.2
-  resolution: "core-js-compat@npm:3.16.2"
+  version: 3.16.4
+  resolution: "core-js-compat@npm:3.16.4"
   dependencies:
-    browserslist: ^4.16.7
+    browserslist: ^4.16.8
     semver: 7.0.0
-  checksum: 2ab3f6a7973a9b2037c97e11ad6eff1b749902426acc167c132936d13816c436e8d84396ec074c0aa6ff00a2390bde6f7fb187210b760bdb75820cb02c8f29e0
+  checksum: c5dca6ea14cec28d9ec77b15716fcb93bd1a383e3992ab93b6f63fcf87668a8f1e002d44f766698252ff903baec8afd20d90ffdccb3a2ecc828e0d849e9067d7
   languageName: node
   linkType: hard
 
@@ -2334,9 +2359,9 @@ __metadata:
   linkType: hard
 
 "core-js@npm:^3.16.0":
-  version: 3.16.2
-  resolution: "core-js@npm:3.16.2"
-  checksum: a6785c7b2f0170a0edc3a5ed98d6700a36d1e7ccc3e1a972419cb6bba6363f0119d884cf2e5dd496f11e2b0a45095643050b9567d328fb7e02cf9295fb4d87df
+  version: 3.16.4
+  resolution: "core-js@npm:3.16.4"
+  checksum: a85086b088ebeda5b0634a884e4a9540da1f46bc85ff2c45e284ff3383afdb30ea7ad00f74a9e14538c1004eb33dd2b0b945eff1c188a8fd33ca979dc4877855
   languageName: node
   linkType: hard
 
@@ -2516,9 +2541,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.811":
-  version: 1.3.814
-  resolution: "electron-to-chromium@npm:1.3.814"
-  checksum: 3e688a890321426f1781090ada726d73326685a43e3d94c30f7baedc970f4cb9cbc3a9cfe1b3af7538b0c3bcefef96a098fc3cd3d57ce43393f547d68e922074
+  version: 1.3.822
+  resolution: "electron-to-chromium@npm:1.3.822"
+  checksum: abf6c1bd5438881d27f5ef617e1d4f7ee8377bab5b88e521efd4e27f29fe548c21dc5cfb33d92811e8e636c1657371cd17b413110af4b472f7ff86b3dd7406af
   languageName: node
   linkType: hard
 
@@ -3954,7 +3979,18 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2, json5@npm:^2.2.0":
+"json5@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "json5@npm:1.0.1"
+  dependencies:
+    minimist: ^1.2.0
+  bin:
+    json5: lib/cli.js
+  checksum: df41624f9f40bfacc546f779eef6d161a3312fbb6ec1dbd69f8c4388e9807af653b753371ab19b6d2bab22af2ca7dde62fe03c791596acf76915e1fc4ee6fd88
+  languageName: node
+  linkType: hard
+
+"json5@npm:^2.1.2":
   version: 2.2.0
   resolution: "json5@npm:2.2.0"
   dependencies:
@@ -4430,8 +4466,8 @@ fsevents@~2.3.2:
   linkType: hard
 
 "node-gyp@npm:latest":
-  version: 8.1.0
-  resolution: "node-gyp@npm:8.1.0"
+  version: 8.2.0
+  resolution: "node-gyp@npm:8.2.0"
   dependencies:
     env-paths: ^2.2.0
     glob: ^7.1.4
@@ -4441,11 +4477,11 @@ fsevents@~2.3.2:
     npmlog: ^4.1.2
     rimraf: ^3.0.2
     semver: ^7.3.5
-    tar: ^6.1.0
+    tar: ^6.1.2
     which: ^2.0.2
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: 6e014ff491cc4fdd25c41e38f9f92ab665d3b2e1ef7cd18e292aff9b293ef485c6bb93194461a5538d3bfa4b678258df974800660dd7d40865866ef3188c5481
+  checksum: 90876d42d66a58d6999eb3403cd2157a514214a1e1795e3ceee486b1172b713586db38a61e0182ac4f9d06d095c7b4b332c42c1a243aadc1549ab5552109e9c4
   languageName: node
   linkType: hard
 
@@ -5760,9 +5796,9 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"tar@npm:^6.0.2, tar@npm:^6.1.0":
-  version: 6.1.10
-  resolution: "tar@npm:6.1.10"
+"tar@npm:^6.0.2, tar@npm:^6.1.2":
+  version: 6.1.11
+  resolution: "tar@npm:6.1.11"
   dependencies:
     chownr: ^2.0.0
     fs-minipass: ^2.0.0
@@ -5770,7 +5806,7 @@ fsevents@~2.3.2:
     minizlib: ^2.1.1
     mkdirp: ^1.0.3
     yallist: ^4.0.0
-  checksum: dfc35416b38945ad5d068fe6e9aa145cae93241f8ad680929a516a34b37a2f513ca25bbbea698451eb8983f27ce6f0ade0407f9329c0cc7c5a06f3e2e97ece29
+  checksum: f6cd9b0d7cfc2d715f28aa9911d244d91762dd905079988b1d549ea2c147281d7c9ab4adb590535665a80d5478518a0a8e8b7a9295b81043a9a1c180684f3a25
   languageName: node
   linkType: hard
 
@@ -5836,13 +5872,14 @@ fsevents@~2.3.2:
   linkType: hard
 
 "tsconfig-paths@npm:^3.9.0":
-  version: 3.10.1
-  resolution: "tsconfig-paths@npm:3.10.1"
+  version: 3.11.0
+  resolution: "tsconfig-paths@npm:3.11.0"
   dependencies:
-    json5: ^2.2.0
+    "@types/json5": ^0.0.29
+    json5: ^1.0.1
     minimist: ^1.2.0
     strip-bom: ^3.0.0
-  checksum: cfc0f728f94bf50dafcaec0083aba88649d3f2a58c860308da9d12cdd0757486a5e7236e6a1d23364bb3258bdaa379a026b1d2db23cd9ef28926a9fb3e7e121f
+  checksum: b25aa1a9d4d3ad9ecaaaa2f22cfefc0441395486382de61ee348ab170f5b7cbc4bebf61f6333ef8a9e783f4b5fee49227137f2662f8569056360c8f9a147c2fd
   languageName: node
   linkType: hard
 
