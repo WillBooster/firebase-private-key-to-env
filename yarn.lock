@@ -1622,9 +1622,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-ts@npm:6.4.2":
-  version: 6.4.2
-  resolution: "@willbooster/eslint-config-ts@npm:6.4.2"
+"@willbooster/eslint-config-ts@npm:6.5.0":
+  version: 6.5.0
+  resolution: "@willbooster/eslint-config-ts@npm:6.5.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5"
     "@typescript-eslint/parser": ">=5"
@@ -1633,23 +1633,23 @@ __metadata:
     eslint-config-prettier: ">=8"
     eslint-plugin-import: ">=2"
     typescript: ">=4"
-  checksum: d29dcf3d4cd20abfd8a333f1b6dcdcc9a4ce70219050299f4e9de8cefc220251fabaa8f350e1a538d63752e18261e4ce48614451156928394f95247bcebe6d00
+  checksum: 0cf6a40b70ba738d538924b652b713fe02e7a37954adea0f379db3579c43df1520934642bbfc91d15b1bcb8691cb84c921cfb4e32400936e3167dba950d628c9
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:6.4.0":
-  version: 6.4.0
-  resolution: "@willbooster/prettier-config@npm:6.4.0"
+"@willbooster/prettier-config@npm:6.5.0":
+  version: 6.5.0
+  resolution: "@willbooster/prettier-config@npm:6.5.0"
   peerDependencies:
     prettier: ">=2"
-  checksum: a338e10bbcb379206dcfdb7db64072ed51581f6723e2af04b5b7916d8f2369ba99bd5fd374699488f8e7bde80060babbbd418f2c3364851a009a53b61e8375d1
+  checksum: dd2b475ee8960c3166adaf1d008f642ab2471c139f4ecd09aa75fa115fb255c9c00fdb694a297864dadb0a2cc50054ac1afefa1e00c8070810e45ee7cc2dd7e5
   languageName: node
   linkType: hard
 
-"@willbooster/renovate-config@npm:6.4.2":
-  version: 6.4.2
-  resolution: "@willbooster/renovate-config@npm:6.4.2"
-  checksum: a207a875886221d2d9d28cd225cbb9d55d07cacc7d47b86f8e0b84728d0ea6838668e84aae09a8460d33a7f069b4d98fc9227f56c4e0b2ae7a1aa30298bf7468
+"@willbooster/renovate-config@npm:6.5.0":
+  version: 6.5.0
+  resolution: "@willbooster/renovate-config@npm:6.5.0"
+  checksum: 234e64ab9cf93b3fd4ac1fb8bda6c0e5d799f9a3104246b215e73a49f613ae9373856dfdec62ec38fcb6fa54f8ce75244ce0f3eb4a7c7fb28968f80c28014cb8
   languageName: node
   linkType: hard
 
@@ -2848,9 +2848,9 @@ __metadata:
     "@types/yargs": 16.0.1
     "@typescript-eslint/eslint-plugin": 4.33.0
     "@typescript-eslint/parser": 4.33.0
-    "@willbooster/eslint-config-ts": 6.4.2
-    "@willbooster/prettier-config": 6.4.0
-    "@willbooster/renovate-config": 6.4.2
+    "@willbooster/eslint-config-ts": 6.5.0
+    "@willbooster/prettier-config": 6.5.0
+    "@willbooster/renovate-config": 6.5.0
     core-js: 3.10.1
     eslint: 7.32.0
     eslint-config-prettier: 8.3.0
