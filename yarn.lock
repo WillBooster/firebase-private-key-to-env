@@ -1494,10 +1494,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.18.3":
-  version: 14.18.3
-  resolution: "@types/node@npm:14.18.3"
-  checksum: 72275674a25b0e9d4fe213449d874fd3e8280a84d911a359d298d68b84550b6a3210d484dc2662b8eb6e0b1829f4dac5e60cb7c01ce78878b316305c798d1cbb
+"@types/node@npm:14.18.5":
+  version: 14.18.5
+  resolution: "@types/node@npm:14.18.5"
+  checksum: 5ad7090e4cd1d7cd9efa4915cc8b4f69503a1d2070b1998a55fce776ae03fef6c0703d6940197af2cd31b3516b41b552d9fced92d2a0837c28b8ed8b5ca0872c
   languageName: node
   linkType: hard
 
@@ -2210,14 +2210,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.20.1":
-  version: 3.20.1
-  resolution: "core-js@npm:3.20.1"
-  checksum: e45f4f4b5c64d4650d46075b1fa8845c62ea08f5c30ee92ffc14b95147b4a9eb511c8a1184a31d03660061a8570a9610e598e30981afc2d2f8bca460f63dd3cb
-  languageName: node
-  linkType: hard
-
-"core-js@npm:^3.19.0":
+"core-js@npm:3.20.2, core-js@npm:^3.19.0":
   version: 3.20.2
   resolution: "core-js@npm:3.20.2"
   checksum: dc055a5a79f2e3c2e060b4fb8a3e228fa0de16464bff3c6605646183139eebaa68c390ec6d9c3acc5677f333df510b977ee3f1d5992e6c36b1f200e35f5ed8ca
@@ -2501,7 +2494,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-module-utils@npm:^2.7.1":
+"eslint-module-utils@npm:^2.7.2":
   version: 2.7.2
   resolution: "eslint-module-utils@npm:2.7.2"
   dependencies:
@@ -2511,26 +2504,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.25.3":
-  version: 2.25.3
-  resolution: "eslint-plugin-import@npm:2.25.3"
+"eslint-plugin-import@npm:2.25.4":
+  version: 2.25.4
+  resolution: "eslint-plugin-import@npm:2.25.4"
   dependencies:
     array-includes: ^3.1.4
     array.prototype.flat: ^1.2.5
     debug: ^2.6.9
     doctrine: ^2.1.0
     eslint-import-resolver-node: ^0.3.6
-    eslint-module-utils: ^2.7.1
+    eslint-module-utils: ^2.7.2
     has: ^1.0.3
     is-core-module: ^2.8.0
     is-glob: ^4.0.3
     minimatch: ^3.0.4
     object.values: ^1.1.5
     resolve: ^1.20.0
-    tsconfig-paths: ^3.11.0
+    tsconfig-paths: ^3.12.0
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-  checksum: 8bdf4b1fafb0e5c8f57a1673f72d84307d32c06a23942990d198c8b32a85a5ae0098872d1ef5bf80d7dfe8ec542f6a671e3c5e706731a80b493c9015f7a147f5
+  checksum: 0af24f5c7c6ca692f42e3947127f0ae7dfe44f1e02740f7cbe988b510a9c52bab0065d7df04e2d953dcc88a4595a00cbdcf14018acf8cd75cfd47b72efcbb734
   languageName: node
   linkType: hard
 
@@ -2826,18 +2819,18 @@ __metadata:
     "@babel/preset-env": 7.16.7
     "@babel/preset-typescript": 7.16.7
     "@types/micromatch": 4.0.2
-    "@types/node": 14.18.3
+    "@types/node": 14.18.5
     "@types/yargs": 16.0.4
     "@typescript-eslint/eslint-plugin": 4.33.0
     "@typescript-eslint/parser": 4.33.0
     "@willbooster/eslint-config-ts": 6.5.0
     "@willbooster/prettier-config": 6.5.0
     "@willbooster/renovate-config": 6.5.0
-    core-js: 3.20.1
+    core-js: 3.20.2
     eslint: 7.32.0
     eslint-config-prettier: 8.3.0
     eslint-import-resolver-node: 0.3.6
-    eslint-plugin-import: 2.25.3
+    eslint-plugin-import: 2.25.4
     husky: 4.3.8
     lint-staged: 10.5.4
     micromatch: 4.0.4
@@ -4972,7 +4965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:^3.11.0":
+"tsconfig-paths@npm:^3.12.0":
   version: 3.12.0
   resolution: "tsconfig-paths@npm:3.12.0"
   dependencies:
