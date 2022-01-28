@@ -57,16 +57,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.16.10":
-  version: 7.16.10
-  resolution: "@babel/core@npm:7.16.10"
+"@babel/core@npm:7.16.12":
+  version: 7.16.12
+  resolution: "@babel/core@npm:7.16.12"
   dependencies:
     "@babel/code-frame": ^7.16.7
     "@babel/generator": ^7.16.8
     "@babel/helper-compilation-targets": ^7.16.7
     "@babel/helper-module-transforms": ^7.16.7
     "@babel/helpers": ^7.16.7
-    "@babel/parser": ^7.16.10
+    "@babel/parser": ^7.16.12
     "@babel/template": ^7.16.7
     "@babel/traverse": ^7.16.10
     "@babel/types": ^7.16.8
@@ -76,7 +76,7 @@ __metadata:
     json5: ^2.1.2
     semver: ^6.3.0
     source-map: ^0.5.0
-  checksum: d34c5edf9258e620d0cbea4ed25a2615f5ab86dc7f7c1b96ac19817fb7d57bfae9af72dc244385a724225dbc701cb878d9559158aee9659e2a3c69d03f93f3e1
+  checksum: 29b56f3cb7c329fc038a2efaccf64ac3025835676b3d90f57f2265b6acd477a970114d09021b38d019ac8f20b2bb1596a9e79ce1f820d6b8cf0e4a802891817c
   languageName: node
   linkType: hard
 
@@ -385,7 +385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.16.10, @babel/parser@npm:^7.16.7":
+"@babel/parser@npm:^7.16.10, @babel/parser@npm:^7.16.12, @babel/parser@npm:^7.16.7":
   version: 7.16.12
   resolution: "@babel/parser@npm:7.16.12"
   bin:
@@ -2814,7 +2814,7 @@ __metadata:
   resolution: "firebase-private-key-to-env@workspace:."
   dependencies:
     "@babel/cli": 7.16.8
-    "@babel/core": 7.16.10
+    "@babel/core": 7.16.12
     "@babel/node": 7.16.8
     "@babel/plugin-proposal-class-properties": 7.16.7
     "@babel/plugin-proposal-numeric-separator": 7.16.7
