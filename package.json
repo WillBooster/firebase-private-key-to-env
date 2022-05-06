@@ -16,7 +16,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "core-js": "3.22.3",
+    "core-js": "3.22.4",
     "yargs": "16.2.0"
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "lint-staged": "10.5.4",
     "micromatch": "4.0.5",
     "prettier": "2.6.2",
-    "sort-package-json": "1.55.0",
+    "sort-package-json": "1.57.0",
     "typescript": "4.6.4"
   }
 }

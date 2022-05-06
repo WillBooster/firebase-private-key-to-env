@@ -2263,7 +2263,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.22.3, core-js@npm:^3.22.1":
+"core-js@npm:3.22.4":
+  version: 3.22.4
+  resolution: "core-js@npm:3.22.4"
+  checksum: 1d031597a61d11266343c7f9a788ad620bb8e1a15207c8ff41ee77183789f1d6592d7cbaf4931d74773be08739871c6ae1a59090a7e03f0bc5131d4443cc04d2
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.22.1":
   version: 3.22.3
   resolution: "core-js@npm:3.22.3"
   checksum: cbea855339f5a712fb4ae0b3f6f4074ff254b0e9e914a06ce4f411d6046fe730bb418d209d0f35e9afacd6dde701c45f78079ad6b4f047516db7e9524081c338
@@ -2889,7 +2896,7 @@ __metadata:
     "@willbooster/eslint-config-ts": 6.5.1
     "@willbooster/prettier-config": 6.5.1
     "@willbooster/renovate-config": 6.5.1
-    core-js: 3.22.3
+    core-js: 3.22.4
     eslint: 7.32.0
     eslint-config-prettier: 8.5.0
     eslint-import-resolver-node: 0.3.6
@@ -2898,7 +2905,7 @@ __metadata:
     lint-staged: 10.5.4
     micromatch: 4.0.5
     prettier: 2.6.2
-    sort-package-json: 1.55.0
+    sort-package-json: 1.57.0
     typescript: 4.6.4
     yargs: 16.2.0
   languageName: unknown
@@ -4853,9 +4860,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:1.55.0":
-  version: 1.55.0
-  resolution: "sort-package-json@npm:1.55.0"
+"sort-package-json@npm:1.57.0":
+  version: 1.57.0
+  resolution: "sort-package-json@npm:1.57.0"
   dependencies:
     detect-indent: ^6.0.0
     detect-newline: 3.1.0
@@ -4865,7 +4872,7 @@ __metadata:
     sort-object-keys: ^1.1.3
   bin:
     sort-package-json: cli.js
-  checksum: 221709f89a045143193839a06e7d7d307b60d62074ff2685a81cf78cb1cc2c47a36d3fda19202b1edf49c241da0ef14e64c5574a87c6f5dd87f1ff88251ce312
+  checksum: 15758ba6b1033ae136863eabd4b8c8a28e79dd68b71327f6803c2ea740dc149dc9ad708b006d07ee9de56b6dc7cadb7c697801ad50c01348aa91022c6ff6e21d
   languageName: node
   linkType: hard
 
