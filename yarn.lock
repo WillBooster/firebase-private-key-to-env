@@ -1558,10 +1558,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.18.18":
-  version: 14.18.18
-  resolution: "@types/node@npm:14.18.18"
-  checksum: a165225cd2603f6e62af8407449e4a4407305e03b41c1adf6b186fdf546e1a03c8214217659b5b36c556947c0c06234993ac880d4db6378136a7a810d47e0742
+"@types/node@npm:14.18.20":
+  version: 14.18.20
+  resolution: "@types/node@npm:14.18.20"
+  checksum: 999d8ef25c983c9ca7c3365d6878a7f9387a90e10fdec9b6fc26764ae0b52768b8ca4f7e3fcab6056326dcc613b730f2a58b59acacdc5d5863fa4b7a09c1f85f
   languageName: node
   linkType: hard
 
@@ -2299,7 +2299,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.22.7, core-js@npm:^3.22.1":
+"core-js@npm:3.22.8":
+  version: 3.22.8
+  resolution: "core-js@npm:3.22.8"
+  checksum: c79bcfea37920a5da880ad1fc8336355e833c83998bb28cd45cc59eef4d9824dd8d59ccd24d6b18ff88f284d53d9eef021ddbd2b5ab1c6305b01e98c1402e510
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.22.1":
   version: 3.22.7
   resolution: "core-js@npm:3.22.7"
   checksum: c5f1d8a96b6d1828d02583603d9df1fcbf45f95454585ff9d49ba7ea1470bf1422d00561044939bf4952465ae4ae2bf30a39b4874da8ed2741a3f3996bd175ab
@@ -2928,14 +2935,14 @@ __metadata:
     "@babel/preset-env": 7.18.2
     "@babel/preset-typescript": 7.17.12
     "@types/micromatch": 4.0.2
-    "@types/node": 14.18.18
+    "@types/node": 14.18.20
     "@types/yargs": 16.0.4
     "@typescript-eslint/eslint-plugin": 4.33.0
     "@typescript-eslint/parser": 4.33.0
     "@willbooster/eslint-config-ts": 6.5.1
     "@willbooster/prettier-config": 6.5.1
     "@willbooster/renovate-config": 6.5.1
-    core-js: 3.22.7
+    core-js: 3.22.8
     eslint: 7.32.0
     eslint-config-prettier: 8.5.0
     eslint-import-resolver-node: 0.3.6
