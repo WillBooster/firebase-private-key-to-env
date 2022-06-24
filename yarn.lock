@@ -2290,7 +2290,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.23.1, core-js@npm:^3.22.1":
+"core-js@npm:3.23.2":
+  version: 3.23.2
+  resolution: "core-js@npm:3.23.2"
+  checksum: f94cc8366a34a8a41e98a2b46185b2467b37493b4c072c367e222ad317a74b04ee790ba13a04a864c1ba7e1d83be56d2b51d76520a1d33277a0329e092fa9728
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.22.1":
   version: 3.23.1
   resolution: "core-js@npm:3.23.1"
   checksum: 1348f15fbfca583ae7517c2d89ab5fe8be6c0833b30811f17afe4b4dcdc5e09fdd3ecd2decd625fe2c338591fe511f9bf5cf70568edbe7d8ad081aba70e08c0d
@@ -2896,7 +2903,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:9.0.0"
     "@willbooster/prettier-config": "npm:9.0.0"
     "@willbooster/renovate-config": "npm:9.3.0"
-    core-js: "npm:3.23.1"
+    core-js: "npm:3.23.2"
     eslint: "npm:8.18.0"
     eslint-config-prettier: "npm:8.5.0"
     eslint-import-resolver-typescript: "npm:2.7.1"
@@ -2904,7 +2911,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.14.1"
     eslint-plugin-sort-destructure-keys: "npm:1.4.0"
     husky: "npm:8.0.1"
-    lint-staged: "npm:13.0.2"
+    lint-staged: "npm:13.0.3"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:2.7.1"
@@ -3665,9 +3672,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:13.0.2":
-  version: 13.0.2
-  resolution: "lint-staged@npm:13.0.2"
+"lint-staged@npm:13.0.3":
+  version: 13.0.3
+  resolution: "lint-staged@npm:13.0.3"
   dependencies:
     cli-truncate: "npm:^3.1.0"
     colorette: "npm:^2.0.17"
@@ -3684,7 +3691,7 @@ __metadata:
     yaml: "npm:^2.1.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: d8b836059f916eee8b827ba7093ad86b8ddacf7c6260c5cc54aa91773a629edba20f99916455526c2b5211e02d49d853a858b3d9f7a8114c251abc5570961359
+  checksum: f79ace053d4666d29f70519b3067b2f42df0de06414502ea51ec6fb9440e98b58bcaae4661f2d70b92ae02cd46a809d16e84f4f91df7ba9ed0cb47290429c4f7
   languageName: node
   linkType: hard
 
