@@ -1486,22 +1486,22 @@ __metadata:
   linkType: hard
 
 "@npmcli/fs@npm:^2.1.0":
-  version: 2.1.1
-  resolution: "@npmcli/fs@npm:2.1.1"
+  version: 2.1.2
+  resolution: "@npmcli/fs@npm:2.1.2"
   dependencies:
     "@gar/promisify": "npm:^1.1.3"
     semver: "npm:^7.3.5"
-  checksum: 9082cb48a08d5f42445ed675718692896ef1ee2f3311d1a85afb60fa1f471453fff5714e2a31c8507e03f9efb180ccebfe38d7a2d99948fdb71a58bf5e5a6dc4
+  checksum: 82bc61f832f45e2033ea3522f66a94de50e5561577b1f3af226576ad5467c240375eba948d4ea1ca146e7871740fb3005e7c4f3f1ab616e79a5a5cedd9fdb789
   languageName: node
   linkType: hard
 
 "@npmcli/move-file@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@npmcli/move-file@npm:2.0.0"
+  version: 2.0.1
+  resolution: "@npmcli/move-file@npm:2.0.1"
   dependencies:
     mkdirp: "npm:^1.0.4"
     rimraf: "npm:^3.0.2"
-  checksum: e7c413d3ed558183dd32b88bd024fa71f152267f2172211e1bb3ef60caf86cb438e4365b02affdd633ca4600eeb1d6143a454ccffc2aa84e468e56074a6cc7e7
+  checksum: 3557a12cd18dfb5bcd5d5cf910b783832af50ffba28fd5bb510c3c56b2df0481558b9ec6d3008e8eeefb9f2944bdc1d34832b1a8bbf6ad1cd2f256bf12c84ff0
   languageName: node
   linkType: hard
 
@@ -1574,9 +1574,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.7.3
-  resolution: "@types/node@npm:18.7.3"
-  checksum: bc1a5f35a09c73438dd6d501fd9aa4c30db09aedd8a27904a552d0668846aa7f1fca86b84d475617528a4a48d4761f26c08c18cc4f9a3cf58a52877f544c72e4
+  version: 18.7.8
+  resolution: "@types/node@npm:18.7.8"
+  checksum: 6434c9b5442aee3a305859f4b807c1d949d39cb7e98e60eaa2449de3727bb873d11e7bb4fa0875fc8a6d36584df0cf6f02682663a786766aad27aa9769b35334
   languageName: node
   linkType: hard
 
@@ -2064,8 +2064,8 @@ __metadata:
   linkType: hard
 
 "cacache@npm:^16.1.0":
-  version: 16.1.1
-  resolution: "cacache@npm:16.1.1"
+  version: 16.1.2
+  resolution: "cacache@npm:16.1.2"
   dependencies:
     "@npmcli/fs": "npm:^2.1.0"
     "@npmcli/move-file": "npm:^2.0.0"
@@ -2085,7 +2085,7 @@ __metadata:
     ssri: "npm:^9.0.0"
     tar: "npm:^6.1.11"
     unique-filename: "npm:^1.1.1"
-  checksum: 39fe2c41d01311920b4e7024da72114dab882ba2d2561c718b36cd2505cd13d7902b5c32413b36dd54bfb870f84ce1f8f195bdbadab9579e38797337b5e82409
+  checksum: f6e4330deee3e24a6fadd37be81e79ec3dcfa719972312fb1d8cb36f550811266ad411116d10c8272104d24dad3472d12cdb95695d6bd5656d5d380c97c37e66
   languageName: node
   linkType: hard
 
@@ -2107,9 +2107,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001370":
-  version: 1.0.30001375
-  resolution: "caniuse-lite@npm:1.0.30001375"
-  checksum: 648035dd5c60fa7b6f22886bad768ed867d31f32d9c60e402ffac2f4fce620e2a95a32736b1c91916eadaef3c8d813ce24340ac20d5a20da1bf83cbc7b08b622
+  version: 1.0.30001380
+  resolution: "caniuse-lite@npm:1.0.30001380"
+  checksum: 5b53dde14c991b30894be42bbc0ce6b795bdd8c774166d7e3aaf70260e00cd326c21cd75a4201290f523d790aa6a05d974366be73b0150795ea33a16ce296004
   languageName: node
   linkType: hard
 
@@ -2455,9 +2455,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.202":
-  version: 1.4.219
-  resolution: "electron-to-chromium@npm:1.4.219"
-  checksum: d702f536f3c1e4a61587ff2505ba918834b1d46f140b04803dd7c9d4611418575b7159289042c812078b7852543a2d3481f9e9046fba803adcdad8b17b26ed76
+  version: 1.4.225
+  resolution: "electron-to-chromium@npm:1.4.225"
+  checksum: f4a2a0cdb0646103173b031a9f5bdf233469a1cb866aea78b1e441e597e44127193b11cfd042663b84d46a584ab0069fcb91aba6cf90210f591963612a82be0a
   languageName: node
   linkType: hard
 
@@ -2981,9 +2981,9 @@ __metadata:
   linkType: hard
 
 "flatted@npm:^3.1.0":
-  version: 3.2.6
-  resolution: "flatted@npm:3.2.6"
-  checksum: 258feebea8962c3632e9bbd5a565257a802ebea99d0a6f999503c6fa7f6ed1830566b0da4854c9933a4d3a6f1ecb21ce4d26eca6ac28624478f08b8d2a8c1f43
+  version: 3.2.7
+  resolution: "flatted@npm:3.2.7"
+  checksum: d57a559a56f8743f48067b992e70f222921bec6656de4617ee60dab5e531c2aeba67ace287965b759cca80fa0d3f0c7ffc39341ccc9bc874594f4b73c0fea48c
   languageName: node
   linkType: hard
 
@@ -3879,9 +3879,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^7.7.1":
-  version: 7.13.2
-  resolution: "lru-cache@npm:7.13.2"
-  checksum: 38bc2e4cd01948ffdbd0ee3f7d4566ceac4255b81658b6bbdec29e4691b7e3b127bfa15b9237754b3dc2e08b7ce1c08d9d6272b67a6671c84051a19ac7d58975
+  version: 7.14.0
+  resolution: "lru-cache@npm:7.14.0"
+  checksum: b89c39d5be85787a08070503d74b961952382977a36594dbcc98dc03d71724c3e9864dffd960fb0b3b64de7161edf229d0be40498ba111f9bb75df0bc2b7c00c
   languageName: node
   linkType: hard
 
@@ -3896,8 +3896,8 @@ __metadata:
   linkType: hard
 
 "make-fetch-happen@npm:^10.0.3":
-  version: 10.2.0
-  resolution: "make-fetch-happen@npm:10.2.0"
+  version: 10.2.1
+  resolution: "make-fetch-happen@npm:10.2.1"
   dependencies:
     agentkeepalive: "npm:^4.2.1"
     cacache: "npm:^16.1.0"
@@ -3915,7 +3915,7 @@ __metadata:
     promise-retry: "npm:^2.0.1"
     socks-proxy-agent: "npm:^7.0.0"
     ssri: "npm:^9.0.0"
-  checksum: 4a12e8e2736d88b6d06401caa1df0358df6127a5378d5e79c55bbfbbfc4cc6758827eeb9da566e66ee84c5834f42777e5959f454465c069a08f3434bbf0c99bf
+  checksum: cf0d4b94fb0b022d41373fe7ce0f2a170a7c2668c7404f985c4fa6fe465c24cc3d1a6a84e0a6d4b2cd60cf7d41ec26cc5205d258e15f06c33179c14a31a5e4bd
   languageName: node
   linkType: hard
 
@@ -3992,8 +3992,8 @@ __metadata:
   linkType: hard
 
 "minipass-fetch@npm:^2.0.3":
-  version: 2.1.0
-  resolution: "minipass-fetch@npm:2.1.0"
+  version: 2.1.1
+  resolution: "minipass-fetch@npm:2.1.1"
   dependencies:
     encoding: "npm:^0.1.13"
     minipass: "npm:^3.1.6"
@@ -4002,7 +4002,7 @@ __metadata:
   dependenciesMeta:
     encoding:
       optional: true
-  checksum: fb5a5617339545bd3b351ef9ae51fd308148796751c4510ddaf5293a494946bec12670bd2eb93af863857bcb88fa7db36e165fb547fc4140aadbd495de981812
+  checksum: 255cb738f3adc3de619237e4569eff98006e687290c691fa5b6834b43c1071286d7fe632065b246069d5ab85a49241271189440cdf1a3dde9fa1190aa5d9b3c9
   languageName: node
   linkType: hard
 
@@ -4194,14 +4194,14 @@ __metadata:
   linkType: hard
 
 "object.assign@npm:^4.1.0, object.assign@npm:^4.1.2":
-  version: 4.1.3
-  resolution: "object.assign@npm:4.1.3"
+  version: 4.1.4
+  resolution: "object.assign@npm:4.1.4"
   dependencies:
     call-bind: "npm:^1.0.2"
     define-properties: "npm:^1.1.4"
     has-symbols: "npm:^1.0.3"
     object-keys: "npm:^1.1.1"
-  checksum: 8bfa17d6f14be42b674bfaaef21f906f89a2eb8a0541d5069a6d55c68c3665513e40bc7c2739b487c6a6b108079600a2004c4fef0f2a8823e41647922eae6930
+  checksum: d1b1bcf947a523140f1f5aa91fcdb9b8fadf6a309e8274bec5e5cfbf897974ead2d0782ac9a2e83ebf59f0ee3994be5cfb1d1483a19e528f472993b2d026a1de
   languageName: node
   linkType: hard
 
