@@ -23,18 +23,18 @@
     "yargs": "16.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.18.10",
-    "@babel/core": "7.19.1",
+    "@babel/cli": "7.19.3",
+    "@babel/core": "7.19.3",
     "@babel/node": "7.19.1",
     "@babel/plugin-proposal-class-properties": "7.18.6",
     "@babel/plugin-proposal-numeric-separator": "7.18.6",
-    "@babel/preset-env": "7.19.1",
+    "@babel/preset-env": "7.19.3",
     "@babel/preset-typescript": "7.18.6",
     "@types/micromatch": "4.0.2",
-    "@types/node": "16.11.60",
+    "@types/node": "16.11.62",
     "@types/yargs": "16.0.4",
-    "@typescript-eslint/eslint-plugin": "5.38.0",
-    "@typescript-eslint/parser": "5.38.0",
+    "@typescript-eslint/eslint-plugin": "5.38.1",
+    "@typescript-eslint/parser": "5.38.1",
     "@willbooster/eslint-config-ts": "10.0.7",
     "@willbooster/prettier-config": "9.1.1",
     "@willbooster/renovate-config": "9.4.1",
@@ -51,9 +51,9 @@
     "pinst": "3.0.0",
     "prettier": "2.7.1",
     "sort-package-json": "1.57.0",
-    "typescript": "4.8.3"
+    "typescript": "4.8.4"
   },
-  "packageManager": "yarn@4.0.0-rc.20",
+  "packageManager": "yarn@4.0.0-rc.22",
   "publishConfig": {
     "access": "public"
   }
