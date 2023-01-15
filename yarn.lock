@@ -2130,9 +2130,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001442
-  resolution: "caniuse-lite@npm:1.0.30001442"
-  checksum: 745acdc6e6077a45a6976033f79ed0d0149d520d50ced2f09a294d39f1904793f11f981823d790c1360d0e9e9a50356cfa250f3d418de8b64cbb8341a82cd6b1
+  version: 1.0.30001445
+  resolution: "caniuse-lite@npm:1.0.30001445"
+  checksum: efd97714ba8a736ab477f68787f13d47a3be72af55b470b1469c8da400d6e1d24a1144d7e8a4aeac7805d3f3434035fd69c7e4a29c629085721df8af5f3bba44
   languageName: node
   linkType: hard
 
@@ -2545,11 +2545,12 @@ __metadata:
   linkType: hard
 
 "es-abstract@npm:^1.19.0, es-abstract@npm:^1.20.4":
-  version: 1.21.0
-  resolution: "es-abstract@npm:1.21.0"
+  version: 1.21.1
+  resolution: "es-abstract@npm:1.21.1"
   dependencies:
+    available-typed-arrays: "npm:^1.0.5"
     call-bind: "npm:^1.0.2"
-    es-set-tostringtag: "npm:^2.0.0"
+    es-set-tostringtag: "npm:^2.0.1"
     es-to-primitive: "npm:^1.2.1"
     function-bind: "npm:^1.1.1"
     function.prototype.name: "npm:^1.1.5"
@@ -2562,7 +2563,7 @@ __metadata:
     has-proto: "npm:^1.0.1"
     has-symbols: "npm:^1.0.3"
     internal-slot: "npm:^1.0.4"
-    is-array-buffer: "npm:^3.0.0"
+    is-array-buffer: "npm:^3.0.1"
     is-callable: "npm:^1.2.7"
     is-negative-zero: "npm:^2.0.2"
     is-regex: "npm:^1.1.4"
@@ -2580,7 +2581,7 @@ __metadata:
     typed-array-length: "npm:^1.0.4"
     unbox-primitive: "npm:^1.0.2"
     which-typed-array: "npm:^1.1.9"
-  checksum: c62b14fbf66e8f4d3cb2d593bd9e85c981e33da3ecb068efa3b5b651f793d77a2b53e3d9ff598b337e8b0f549cb953d575f3067ea9e52affeed2af1be4abca9c
+  checksum: f37a34be923df482128307c68fba32603554e7362e9b539d75736a01f8f68786dc7cc1ee6b9e7f55e84e44d78a73d2f71f45d518e73cde86680abc042fcbba83
   languageName: node
   linkType: hard
 
@@ -2591,7 +2592,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-set-tostringtag@npm:^2.0.0":
+"es-set-tostringtag@npm:^2.0.1":
   version: 2.0.1
   resolution: "es-set-tostringtag@npm:2.0.1"
   dependencies:
@@ -3265,15 +3266,15 @@ __metadata:
   linkType: hard
 
 "glob@npm:^8.0.1":
-  version: 8.0.3
-  resolution: "glob@npm:8.0.3"
+  version: 8.1.0
+  resolution: "glob@npm:8.1.0"
   dependencies:
     fs.realpath: "npm:^1.0.0"
     inflight: "npm:^1.0.4"
     inherits: "npm:2"
     minimatch: "npm:^5.0.1"
     once: "npm:^1.3.0"
-  checksum: e629823aabf11611bfe7b3a2f4582a5e0898daaecba3263081d5d4a8fcc595d07aefb85c178e816f7bf1c07a09fd164dc80558b83e9e825555796929164404b1
+  checksum: b2d53aa8d54a3e5b3998f52e72140deea385d292a68719144cda70148c335aa956bd03a643f50f6e4f685ee40ae538ee62a96278cc7b797f731a50a3babfcf63
   languageName: node
   linkType: hard
 
@@ -3586,7 +3587,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-array-buffer@npm:^3.0.0":
+"is-array-buffer@npm:^3.0.1":
   version: 3.0.1
   resolution: "is-array-buffer@npm:3.0.1"
   dependencies:
@@ -4190,11 +4191,11 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^5.0.1":
-  version: 5.1.2
-  resolution: "minimatch@npm:5.1.2"
+  version: 5.1.4
+  resolution: "minimatch@npm:5.1.4"
   dependencies:
     brace-expansion: "npm:^2.0.1"
-  checksum: db22781a7b993641742f075b499f5fee04b64177fe6ed0fd6859aff2fd7f6b2de2c7a4c7728fa15c5b4638589da8bd2a1cdac3ee2976a3ffe92cb146f3999b4a
+  checksum: 3e20888cd2d875df605ace9febab9d7c9c71a3d746426bae81493d9843327232a2d6c895c63b62b24373607704552e89421f3b1b644208cbee05d33aa98277c3
   languageName: node
   linkType: hard
 
@@ -4417,9 +4418,9 @@ __metadata:
   linkType: hard
 
 "object-inspect@npm:^1.12.2, object-inspect@npm:^1.9.0":
-  version: 1.12.2
-  resolution: "object-inspect@npm:1.12.2"
-  checksum: 46e3fc4cb6a51a37c21c68bdf682befc2e50a0d1643d1f7cbdce9a5fd13e9d44ae8cbbf1b05f0c8daf739c02eb9044d825544e25c3aef2a7d315980c8c7ccb71
+  version: 1.12.3
+  resolution: "object-inspect@npm:1.12.3"
+  checksum: 052c374ab0a4c85201480374c1039dddac0aaa8ef0fcbe1b04026f4c832c5632db6cb63617d6403b2b9dca08d4302d781aeb6c4d0260de4a84118ecaf1b5ebda
   languageName: node
   linkType: hard
 
@@ -4751,9 +4752,9 @@ __metadata:
   linkType: hard
 
 "punycode@npm:^2.1.0":
-  version: 2.1.1
-  resolution: "punycode@npm:2.1.1"
-  checksum: fd728ef9db90e7b4db37d5c4937d6c6302cf4f64748b2dea3abbf1efd21e6193bb670efb7814766c858b2e1ccdb65ce34e44b498d734922e1dcb2a8623a925d8
+  version: 2.2.0
+  resolution: "punycode@npm:2.2.0"
+  checksum: ed3793a37b282497a85c7543e665b7c270c6c7cd8969944617ce26175976ccf5c75180de6d4c86394a5d0cc2e38e34ba4c55095475cf789837e220e3bb7c5348
   languageName: node
   linkType: hard
 
