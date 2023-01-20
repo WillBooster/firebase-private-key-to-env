@@ -19,7 +19,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "core-js": "3.27.1",
+    "core-js": "3.27.2",
     "yargs": "16.2.0"
   },
   "devDependencies": {
