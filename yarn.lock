@@ -2356,7 +2356,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.27.1, core-js@npm:^3.26.0":
+"core-js@npm:3.27.2":
+  version: 3.27.2
+  resolution: "core-js@npm:3.27.2"
+  checksum: a65178818013cb4f90d96b8ff899fea5cd5bb884f993888ad5da34b89ff199bd6732bca6acc1a0ef21d36f2955e0389bd58a2141ce5234900d42d5c636b1cd92
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.26.0":
   version: 3.27.1
   resolution: "core-js@npm:3.27.1"
   checksum: eacca0971dcb9402e91f4933772acd56bdb4aaf32cc77c60445e17909b1275190ea4b9ef1cc8eb09569f5bd64ef447ec5be1fdbdf5be6222ba0a1307a2ad6e35
@@ -3048,7 +3055,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:10.0.8"
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.5.0"
-    core-js: "npm:3.27.1"
+    core-js: "npm:3.27.2"
     eslint: "npm:8.32.0"
     eslint-config-prettier: "npm:8.6.0"
     eslint-import-resolver-typescript: "npm:3.5.3"
