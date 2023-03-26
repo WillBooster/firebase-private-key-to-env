@@ -1362,20 +1362,20 @@ __metadata:
   linkType: hard
 
 "@eslint-community/eslint-utils@npm:^4.1.2, @eslint-community/eslint-utils@npm:^4.2.0":
-  version: 4.3.0
-  resolution: "@eslint-community/eslint-utils@npm:4.3.0"
+  version: 4.4.0
+  resolution: "@eslint-community/eslint-utils@npm:4.4.0"
   dependencies:
     eslint-visitor-keys: "npm:^3.3.0"
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
-  checksum: 0a4c8c3161d862633d788af154791b0eb8c92d6cb0713f08c7d0152d1090242f396e1af3a69ac90c40e8590f8e80ffa9f32f1379481b349412dbf8a1f147487b
+  checksum: b9d700a83a743f2e152b4038d02a4bf807bc7363d59efeafec93b9498e59a3aa4d2604d206c213b91966416d628f33d88a4b773b8ff0d384b44353e8072ba922
   languageName: node
   linkType: hard
 
 "@eslint-community/regexpp@npm:^4.4.0":
-  version: 4.4.0
-  resolution: "@eslint-community/regexpp@npm:4.4.0"
-  checksum: 8ec04b985ecb6b18ec0a9d008023780b0b1dfc6477dd1d1aba5a9d0c91bee46b2b98423b5a2f9b6f137b0e98d9f215613ce96df89d2bdfd5fcc23ad9a693309b
+  version: 4.4.1
+  resolution: "@eslint-community/regexpp@npm:4.4.1"
+  checksum: 9ba96e73c48871cac0ea3d4ae040288fa7e3cd5369015e13592aa1a4af0f8b3434d4f5eb9f52c1825fed0b893f75e77e5370d0972b6b255195f12fe3b11bdf8b
   languageName: node
   linkType: hard
 
@@ -2164,9 +2164,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001449":
-  version: 1.0.30001468
-  resolution: "caniuse-lite@npm:1.0.30001468"
-  checksum: 3f06ec066ff60156e426442a70b50d159e3047279b3c89bbf798a5a59cd729765828525ea288a2c78e7b782cd92137f2042c67bfcc92ded9cbd1e991d252e58b
+  version: 1.0.30001470
+  resolution: "caniuse-lite@npm:1.0.30001470"
+  checksum: 997403fb6db7c2890987df9a976e03b297f52e5b2d0057935d4356af6b12a05c6deadc00c52e9a368a8af51bb22d57adfda9239bf6f95712db6b38d922e339dc
   languageName: node
   linkType: hard
 
@@ -2523,9 +2523,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.333
-  resolution: "electron-to-chromium@npm:1.4.333"
-  checksum: f312122b3d2e44b401eb16fa20cd3d3cff6f558425facee7c7e31b84154b8b510eec0d3b1165cd737b9481814424d5a062c9d2a6a3f41e090bbb695464b4eb9b
+  version: 1.4.340
+  resolution: "electron-to-chromium@npm:1.4.340"
+  checksum: bad111b3637ff001b1bb84af10433fc422525b8bca4b6720107ea61b888f3b6178ed893c406a3384851a8e124976445bcdaecedfb15038e1feb6bc1bdb3b7311
   languageName: node
   linkType: hard
 
@@ -3874,9 +3874,9 @@ __metadata:
   linkType: hard
 
 "js-sdsl@npm:^4.1.4":
-  version: 4.3.0
-  resolution: "js-sdsl@npm:4.3.0"
-  checksum: ad20a4f5fd32cbdbb8d9ac61a44bf6205027da0ec8e6051948951476b102dbb6d84668fe94b84a6a8fb77de960614d5baa1ef22331850727fc33c510eb5fb4b4
+  version: 4.4.0
+  resolution: "js-sdsl@npm:4.4.0"
+  checksum: 8c85413f74e8bce8390d49474c8b0ff9d99626bd913ab41ad36f92ad297b89c50198daca84ff56bfb0dd1d5b4e64abfbd0e3ea8b016739dc64b5f076784d3b79
   languageName: node
   linkType: hard
 
