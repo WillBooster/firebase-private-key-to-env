@@ -19,7 +19,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "core-js": "3.29.1",
+    "core-js": "3.30.0",
     "yargs": "16.2.0"
   },
   "devDependencies": {
@@ -46,12 +46,12 @@
     "eslint-plugin-sort-destructure-keys": "1.5.0",
     "eslint-plugin-unicorn": "46.0.0",
     "husky": "8.0.3",
-    "lint-staged": "13.2.0",
+    "lint-staged": "13.2.1",
     "micromatch": "4.0.5",
     "pinst": "3.0.0",
     "prettier": "2.8.7",
     "sort-package-json": "2.4.1",
-    "typescript": "5.0.3"
+    "typescript": "5.0.4"
   },
   "packageManager": "yarn@4.0.0-rc.42",
   "publishConfig": {
