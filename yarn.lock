@@ -1602,10 +1602,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.15.13":
-  version: 18.15.13
-  resolution: "@types/node@npm:18.15.13"
-  checksum: 2f3b73aa4d643fa96c4f83ac1e9077af04257fdd350db76d9b14f7349135ba284a0bf1cfc66aaff29a3d8c103b77d734064e7040ba3e8409eef3177d0ed164fd
+"@types/node@npm:18.16.2":
+  version: 18.16.2
+  resolution: "@types/node@npm:18.16.2"
+  checksum: c6da57133e52105e77f1314d4bde5f75aff2370f426a264bba532209cfc2161fb3e00c8917129b7bc25050e25da7ebf62d3efbbbbd749ac6b4999c3459efb1e3
   languageName: node
   linkType: hard
 
@@ -3077,7 +3077,7 @@ __metadata:
     "@babel/preset-env": "npm:7.21.4"
     "@babel/preset-typescript": "npm:7.21.4"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.15.13"
+    "@types/node": "npm:18.16.2"
     "@types/yargs": "npm:16.0.5"
     "@typescript-eslint/eslint-plugin": "npm:5.59.1"
     "@typescript-eslint/parser": "npm:5.59.1"
