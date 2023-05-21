@@ -2203,9 +2203,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001449":
-  version: 1.0.30001487
-  resolution: "caniuse-lite@npm:1.0.30001487"
-  checksum: 118e071f830e862c9c1d72e0c02fe0e170d60b7173a5a43353979d3da3a04dc3e37e54debef5b9c09f6aefc27fa0f41e5a1366755bdf10e6087eaaeff4fb05fe
+  version: 1.0.30001488
+  resolution: "caniuse-lite@npm:1.0.30001488"
+  checksum: cec039ac89ce2dfc125cd994f3c0b4f9f49109f2e19f1fc29383f37a64b90b1762490d641f29de3e92602e1ec53d8b219675f990d6aa9083e518e1f0f5347b09
   languageName: node
   linkType: hard
 
@@ -2584,9 +2584,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.284":
-  version: 1.4.394
-  resolution: "electron-to-chromium@npm:1.4.394"
-  checksum: 3d3cbfd68b6ca0d7c377de24593d23ab724412b5de5dc1c34108b70cedc5a4439f9cdf08cc33b99b59656ff71bc1a2ffed386519ad885e9ba674466d9ec408e5
+  version: 1.4.402
+  resolution: "electron-to-chromium@npm:1.4.402"
+  checksum: f07d09d0fd54622304fd3f0f95fe36062990e41b2cd5623077ad47679259d106930de76f9d456e7a53c7c2f900e743cb75e28f34ea98fa77255615e9e497db3d
   languageName: node
   linkType: hard
 
@@ -3754,11 +3754,11 @@ __metadata:
   linkType: hard
 
 "is-core-module@npm:^2.11.0, is-core-module@npm:^2.12.0":
-  version: 2.12.0
-  resolution: "is-core-module@npm:2.12.0"
+  version: 2.12.1
+  resolution: "is-core-module@npm:2.12.1"
   dependencies:
     has: "npm:^1.0.3"
-  checksum: 5619b73eeed50eb88c2941c4df535f080a2add4dc568e13411228121da6d7885da4f55be81167f221f4ddb3cb8feab27b00a36242721508a9b02743198aeaa43
+  checksum: ad50fa9887d64a912837625b54df9489005180d829128c5d979355a969e80e65f772a54ac29e8f25a18a2ad2c6b45115deffb32a3e0c2d5b16ee7ad292066b5a
   languageName: node
   linkType: hard
 
@@ -4489,9 +4489,9 @@ __metadata:
   linkType: hard
 
 "node-releases@npm:^2.0.8":
-  version: 2.0.10
-  resolution: "node-releases@npm:2.0.10"
-  checksum: 2047e77c66497fde77318ac163feb8ee18a3bca67c87b76642aeb0549bd01edcc88d7e002691b982513ebb46c809c456c7e027e38848ce9d2f915473552490b6
+  version: 2.0.11
+  resolution: "node-releases@npm:2.0.11"
+  checksum: 0c9f0445d103f2d1f38eee6492254097ab3e470fd48079b6075ea1c241a3fa1c298bdc2565454b22efd58464837cc67bbe22e6513146161c550cf6133c2c65ac
   languageName: node
   linkType: hard
 
@@ -5603,8 +5603,8 @@ __metadata:
   linkType: hard
 
 "tar@npm:^6.1.11, tar@npm:^6.1.2":
-  version: 6.1.14
-  resolution: "tar@npm:6.1.14"
+  version: 6.1.15
+  resolution: "tar@npm:6.1.15"
   dependencies:
     chownr: "npm:^2.0.0"
     fs-minipass: "npm:^2.0.0"
@@ -5612,7 +5612,7 @@ __metadata:
     minizlib: "npm:^2.1.1"
     mkdirp: "npm:^1.0.3"
     yallist: "npm:^4.0.0"
-  checksum: 5aeff09f5651983534cb7be7f8692ca202b0027c5a799d7037a863f1a1a2ecfdcc2e1358261d9a39459fca7b5bab7f35a0ee118de4bad8c07103d22edb661ec0
+  checksum: 815c25f8812ad65172fa0440c96e5395714cfee8b43e9b2cf85d98964bbd479da49dde364087b9e456c49317f88e19aa2304c45c9853555d85289177c3066555
   languageName: node
   linkType: hard
 
@@ -5673,9 +5673,9 @@ __metadata:
   linkType: hard
 
 "tslib@npm:^2.1.0, tslib@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "tslib@npm:2.5.0"
-  checksum: 5a6ee935f56cd653af29de928483acbab7323f964b053e98b6b318abc69431fb0e4f660c4f4a396e2e93852510bef25eeb9f1d951d060b2d7bcc313811e5da6f
+  version: 2.5.2
+  resolution: "tslib@npm:2.5.2"
+  checksum: ed22e23f3d390c305c714064679149f3dd298bc7473697480343c6ec4d2afc94270f85d947fca2ccc6324a22602ef04fe2c7177dda317fbea55f7da1dca3fa36
   languageName: node
   linkType: hard
 
