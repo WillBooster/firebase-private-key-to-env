@@ -1689,12 +1689,12 @@ __metadata:
   linkType: hard
 
 "@types/eslint@npm:^8":
-  version: 8.44.0
-  resolution: "@types/eslint@npm:8.44.0"
+  version: 8.44.1
+  resolution: "@types/eslint@npm:8.44.1"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: feac2a3aafe96844993aa0a3343e9265a13e4dbe2981a215b0103926253ce23adbee4563cef91ef0444f2463658bc10ce69fb6941f4297b4f9a021c77fdf1ec7
+  checksum: c71ac01bce467ab394c86154d1dee92fc46e33c8515036ecb8cde6a1f48ad9497909efe370c96136193d74007b02b8cd89fb91175b256771296e6b822ee6237f
   languageName: node
   linkType: hard
 
@@ -1728,10 +1728,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.19":
-  version: 18.16.19
-  resolution: "@types/node@npm:18.16.19"
-  checksum: 322aaf3c04dcbbae619c7e8d40ed70e4ae41894e88776267d87bf3719a71b9a21ecde903d9f67cec3a663cf608d2822056ab739b48dada75433db38fadac2514
+"@types/node@npm:18.17.1":
+  version: 18.17.1
+  resolution: "@types/node@npm:18.17.1"
+  checksum: 15b9d2d5de2e8607ea0c83286de437086467223c060b6165a2c8cb7b82caf46a4d8851489220adaa93dd525d62f014047ac005a7445be795581539436fc5e08e
   languageName: node
   linkType: hard
 
@@ -2574,7 +2574,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.31.1, core-js@npm:^3.30.2":
+"core-js@npm:3.32.0":
+  version: 3.32.0
+  resolution: "core-js@npm:3.32.0"
+  checksum: 8839b9a5cfff4999cf5e3277072c7c581b29618c6dbc2f9d0170c529a701310ec78843bd97bede0742cf6899b526bdb062bb1d148c6e9a40f3d19173b7ee8e88
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.30.2":
   version: 3.31.1
   resolution: "core-js@npm:3.31.1"
   checksum: 17b44ddc675d7e924ecf0da21dcae3dc9e26758048e3275ba05fcd1a8805d45e6bacee1335b781e9d59d0c38302d5cbfc49073ef33232387459f432852fb6cd9
@@ -3285,13 +3292,13 @@ __metadata:
     "@babel/preset-typescript": "npm:7.22.5"
     "@types/eslint": "npm:^8"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.19"
+    "@types/node": "npm:18.17.1"
     "@types/yargs": "npm:16.0.5"
     "@typescript-eslint/eslint-plugin": "npm:6.2.1"
     "@typescript-eslint/parser": "npm:6.2.1"
     "@willbooster/eslint-config-ts": "npm:10.4.0"
     "@willbooster/prettier-config": "npm:9.1.1"
-    core-js: "npm:3.31.1"
+    core-js: "npm:3.32.0"
     eslint: "npm:8.46.0"
     eslint-config-prettier: "npm:8.9.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
