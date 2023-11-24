@@ -22,9 +22,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/cli@npm:7.23.0":
-  version: 7.23.0
-  resolution: "@babel/cli@npm:7.23.0"
+"@babel/cli@npm:7.23.4":
+  version: 7.23.4
+  resolution: "@babel/cli@npm:7.23.4"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.17"
     "@nicolo-ribaudo/chokidar-2": "npm:2.1.8-no-fsevents.3"
@@ -45,7 +45,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: 80ebb68216adab239ea2eb73e1dc1eb3a70ee8e1afad2ae8f2b7518119ebd247f776bd7d4ab2cb73c2cf0253e202b6af00e4a5fec79c2733084963901bde3903
+  checksum: f71bc378f62dd19983adc8dae4ee33cd44ac7d8ea3224709f787f290e0c3a4b8a36dad76d672b3479de2b9f524e55b4bb12a2296154c73134ba111114a15779c
   languageName: node
   linkType: hard
 
@@ -1685,21 +1685,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/micromatch@npm:4.0.5":
-  version: 4.0.5
-  resolution: "@types/micromatch@npm:4.0.5"
+"@types/micromatch@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@types/micromatch@npm:4.0.6"
   dependencies:
     "@types/braces": "npm:*"
-  checksum: 866dddc5c193d44a65d6a94f060de27b29b565ce6e2b3b8bd2f183c4026553d6b78336a45aa92f62d5202d3963faba07020ea0390ab6835ce6cb9475a4ac5e67
+  checksum: deba87b2bb740cb3f206c006baddc2d3f411fdba48e47452fb189a2a1a73cc3d6f6f2e6f52b970d1383e988afd9f12046e50f902ad740f1f8afa3faa273ab2a0
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.18.9":
-  version: 18.18.9
-  resolution: "@types/node@npm:18.18.9"
+"@types/node@npm:18.18.13":
+  version: 18.18.13
+  resolution: "@types/node@npm:18.18.13"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 8d58fba5eede0df009412ee188bc96f4baf340f4fafbda1bc66fb680fa775aedc88f0cb154a2455966443d9538af402fff022fb0632bddb1bd0648e5a86e5db9
+  checksum: 5f1840f26b4c00e6b4945be678644a46e6689ef10d9d7795d587b76059045b99a14ca6075264296e6e91d73e098fe83df9580881278d9a6ce394b368d9c76700
   languageName: node
   linkType: hard
 
@@ -1724,12 +1724,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:16.0.8":
-  version: 16.0.8
-  resolution: "@types/yargs@npm:16.0.8"
+"@types/yargs@npm:16.0.9":
+  version: 16.0.9
+  resolution: "@types/yargs@npm:16.0.9"
   dependencies:
     "@types/yargs-parser": "npm:*"
-  checksum: ba659eb5a48009ccaa8d6426ad63f2b8de09c153d02f70c911d86b421cfc29ad63e92e17c120d97e81f43cda306760fb3cb5a4137b083d5fafb38c174a6ddf01
+  checksum: be24bd9a56c97ddb2964c1c18f5b9fe8271a50e100dc6945989901aae58f7ce6fb8f3a591c749a518401b6301358dbd1997e83c36138a297094feae7f9ac8211
   languageName: node
   linkType: hard
 
@@ -2464,7 +2464,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.33.2, core-js@npm:^3.30.2":
+"core-js@npm:3.33.3":
+  version: 3.33.3
+  resolution: "core-js@npm:3.33.3"
+  checksum: 08abdc9470c8228b9d09f61e62ab312738681202c4c34e9638889125b304b235f34c4fe22e9d41c20906ac0fcc807dca57c5ff7d6b90021bf64e8fe23461d9ab
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.30.2":
   version: 3.33.2
   resolution: "core-js@npm:3.33.2"
   checksum: d6a56ad3e134846c805ce936788dd58cb51e861f173ed1f830979735d7865ea6f6a5a437076c36c8d8b842ba0384d052998f160774a8da7712f0f51df60167fe
@@ -3116,7 +3123,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "firebase-private-key-to-env@workspace:."
   dependencies:
-    "@babel/cli": "npm:7.23.0"
+    "@babel/cli": "npm:7.23.4"
     "@babel/core": "npm:7.23.3"
     "@babel/node": "npm:7.22.19"
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
@@ -3124,14 +3131,14 @@ __metadata:
     "@babel/preset-env": "npm:7.23.3"
     "@babel/preset-typescript": "npm:7.23.3"
     "@types/eslint": "npm:8.44.7"
-    "@types/micromatch": "npm:4.0.5"
-    "@types/node": "npm:18.18.9"
-    "@types/yargs": "npm:16.0.8"
+    "@types/micromatch": "npm:4.0.6"
+    "@types/node": "npm:18.18.13"
+    "@types/yargs": "npm:16.0.9"
     "@typescript-eslint/eslint-plugin": "npm:6.12.0"
     "@typescript-eslint/parser": "npm:6.12.0"
     "@willbooster/eslint-config-ts": "npm:10.5.1"
     "@willbooster/prettier-config": "npm:9.1.2"
-    core-js: "npm:3.33.2"
+    core-js: "npm:3.33.3"
     eslint: "npm:8.54.0"
     eslint-config-prettier: "npm:9.0.0"
     eslint-import-resolver-typescript: "npm:3.6.1"
