@@ -19,7 +19,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "core-js": "3.33.3",
+    "core-js": "3.34.0",
     "yargs": "16.2.0"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "@babel/preset-typescript": "7.23.3",
     "@types/eslint": "8.44.8",
     "@types/micromatch": "4.0.6",
-    "@types/node": "18.19.0",
+    "@types/node": "18.19.3",
     "@types/yargs": "16.0.9",
     "@typescript-eslint/eslint-plugin": "6.13.2",
     "@typescript-eslint/parser": "6.13.2",
