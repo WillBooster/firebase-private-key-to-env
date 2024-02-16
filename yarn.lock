@@ -1694,12 +1694,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.15":
-  version: 18.19.15
-  resolution: "@types/node@npm:18.19.15"
+"@types/node@npm:18.19.17":
+  version: 18.19.17
+  resolution: "@types/node@npm:18.19.17"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/442e40cbbb75f17c4dbccf0a1a19ffd4b1b6b8cbbcf52ed754c3d3a3992fd1effbe48b9d45b9aae9ac9cebc8717927348b02e009b0a2c0b06b1f813e3b2896e6
+  checksum: 10c0/ac2e4910d5f2bb92cb2623f6d4d4d665a39cf1d425993347e6c3756c70a4def21a47241b86f49e1e4f441529753527bbd9be5f08f29fdac38c64035a26b847c7
   languageName: node
   linkType: hard
 
@@ -2480,7 +2480,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.35.1, core-js@npm:^3.30.2":
+"core-js@npm:3.36.0":
+  version: 3.36.0
+  resolution: "core-js@npm:3.36.0"
+  checksum: 10c0/62dcb41ba79ead581e4c5b2740ae18bfe6ee230e853893736d16edb01b580574d8645ff6c5513d1c75d59620f8451aee45c119d3c4f5ebc66cff5f003a816864
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.30.2":
   version: 3.35.1
   resolution: "core-js@npm:3.35.1"
   checksum: 10c0/ebc8e22c36d13bcf2140cbc1d8ad65d1b08192bff4c43ade70c72eac103cb4dcfbc521f2b1ad1c74881b0a4353e64986537893ae4f07888e49228340efa13ae6
@@ -2859,12 +2866,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-class-members@npm:1.19.0":
-  version: 1.19.0
-  resolution: "eslint-plugin-sort-class-members@npm:1.19.0"
+"eslint-plugin-sort-class-members@npm:1.20.0":
+  version: 1.20.0
+  resolution: "eslint-plugin-sort-class-members@npm:1.20.0"
   peerDependencies:
     eslint: ">=0.8.0"
-  checksum: 10c0/6b8526effcedccd106da0eb325548e3a4f1865bd3da28e6219d2ea154a662fc2c1c686834f8dc9bed7241dfecfbd38fada4f7a6dd856698209edc5fdc435eb04
+  checksum: 10c0/336dc3a0d529bac6829b7cb85487d909c4c47bb0b2a3e3490d19fabb5f8db24080b2caaba6df2642492c462286555f3f5599f84500d6fd9d078826a5efaf348c
   languageName: node
   linkType: hard
 
@@ -3158,18 +3165,18 @@ __metadata:
     "@babel/preset-typescript": "npm:7.23.3"
     "@types/eslint": "npm:8.56.2"
     "@types/micromatch": "npm:4.0.6"
-    "@types/node": "npm:18.19.15"
+    "@types/node": "npm:18.19.17"
     "@types/yargs": "npm:16.0.9"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
     "@willbooster/eslint-config-ts": "npm:10.5.1"
     "@willbooster/prettier-config": "npm:9.1.2"
-    core-js: "npm:3.35.1"
+    core-js: "npm:3.36.0"
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.1"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-sort-class-members: "npm:1.19.0"
+    eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:51.0.1"
     husky: "npm:9.0.11"
