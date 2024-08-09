@@ -1689,12 +1689,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.43":
-  version: 18.19.43
-  resolution: "@types/node@npm:18.19.43"
+"@types/node@npm:18.19.44":
+  version: 18.19.44
+  resolution: "@types/node@npm:18.19.44"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/8be49897596d7641941d21d943b10a7b907af714617f9e3d1c69d735850de0c0a8d04f1428277c2b2451b4eda6ab1a3c05bfadfe66b4a30cd9ca51200814c647
+  checksum: 10c0/298915f9097ad4b2749417b159eeb39fcd8c8bb60866759c9c5139c9492b7030ba6c359da510db5f5305c637c3448ac58dfafefe9801549e04ea11ca29c2a046
   languageName: node
   linkType: hard
 
@@ -2455,7 +2455,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.37.1, core-js@npm:^3.30.2":
+"core-js@npm:3.38.0":
+  version: 3.38.0
+  resolution: "core-js@npm:3.38.0"
+  checksum: 10c0/3218ae19bfe0c6560663012cbd3e7f3dc1b36d50fc71e8c365f3b119185e8a35ac4e8bb9698ae510b3c201ef93f40bdc29f9215716ccf31aca28f77969bb4ed0
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.30.2":
   version: 3.37.1
   resolution: "core-js@npm:3.37.1"
   checksum: 10c0/440eb51a7a39128a320225fe349f870a3641b96c9ecd26470227db730ef8c161ea298eaea621db66ec0ff622a85299efb4e23afebf889c0a1748616102307675
@@ -3197,13 +3204,13 @@ __metadata:
     "@babel/preset-typescript": "npm:7.24.7"
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:18.19.43"
+    "@types/node": "npm:18.19.44"
     "@types/yargs": "npm:16.0.9"
     "@typescript-eslint/eslint-plugin": "npm:8.0.1"
     "@typescript-eslint/parser": "npm:8.0.1"
     "@willbooster/eslint-config-ts": "npm:10.6.0"
     "@willbooster/prettier-config": "npm:9.1.2"
-    core-js: "npm:3.37.1"
+    core-js: "npm:3.38.0"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.1"
