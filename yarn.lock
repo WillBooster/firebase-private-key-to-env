@@ -1703,12 +1703,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.50":
-  version: 18.19.50
-  resolution: "@types/node@npm:18.19.50"
+"@types/node@npm:18.19.54":
+  version: 18.19.54
+  resolution: "@types/node@npm:18.19.54"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/36e6bc9eb47213ce94a868dad9504465ad89fba6af9f7954e22bb27fb17a32ac495f263d0cf4fdaee74becd7b2629609a446ec8c2b59b7a07bd587567c8a4782
+  checksum: 10c0/ea3e2530bb887d4d9c5eb58f0dd16b2af37e4323da2970f3b513403f45db1e0d54ba39b3de838ba7b2d40d38329aeed0bda4a0a39922d006c68aca5ee22e6e46
   languageName: node
   linkType: hard
 
@@ -3212,7 +3212,7 @@ __metadata:
     "@babel/preset-typescript": "npm:7.24.7"
     "@types/eslint": "npm:8.56.11"
     "@types/micromatch": "npm:4.0.9"
-    "@types/node": "npm:18.19.50"
+    "@types/node": "npm:18.19.54"
     "@types/yargs": "npm:16.0.9"
     "@typescript-eslint/eslint-plugin": "npm:8.7.0"
     "@typescript-eslint/parser": "npm:8.7.0"
