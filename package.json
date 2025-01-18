@@ -33,7 +33,7 @@
     "@babel/preset-typescript": "7.26.0",
     "@types/eslint": "8.56.11",
     "@types/micromatch": "4.0.9",
-    "@types/node": "18.19.70",
+    "@types/node": "18.19.71",
     "@types/yargs": "16.0.9",
     "@typescript-eslint/eslint-plugin": "8.20.0",
     "@typescript-eslint/parser": "8.20.0",
