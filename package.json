@@ -20,7 +20,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "core-js": "3.44.0",
+    "core-js": "3.45.0",
     "yargs": "16.2.0"
   },
   "devDependencies": {
@@ -33,10 +33,10 @@
     "@babel/preset-typescript": "7.27.1",
     "@types/eslint": "8.56.11",
     "@types/micromatch": "4.0.9",
-    "@types/node": "18.19.120",
+    "@types/node": "18.19.122",
     "@types/yargs": "16.0.9",
-    "@typescript-eslint/eslint-plugin": "8.38.0",
-    "@typescript-eslint/parser": "8.38.0",
+    "@typescript-eslint/eslint-plugin": "8.39.0",
+    "@typescript-eslint/parser": "8.39.0",
     "@willbooster/eslint-config-ts": "10.6.1",
     "@willbooster/prettier-config": "9.1.3",
     "eslint": "8.57.0",
@@ -52,7 +52,7 @@
     "pinst": "3.0.0",
     "prettier": "3.6.2",
     "sort-package-json": "2.15.1",
-    "typescript": "5.8.3"
+    "typescript": "5.9.2"
   },
   "packageManager": "yarn@4.9.2",
   "publishConfig": {
