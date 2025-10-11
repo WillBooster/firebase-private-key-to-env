@@ -21,7 +21,7 @@
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
     "core-js": "3.46.0",
-    "yargs": "16.2.0"
+    "yargs": "18.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.28.3",
