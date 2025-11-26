@@ -18,6 +18,7 @@
     "prepare": "husky || true",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,java,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test{-,/}fixtures/**\" || true",
     "start": "babel-node -x .js,.jsx,.es6,.es,.ts src/index.ts",
+    "test": "echo \"No tests configured\"",
     "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
