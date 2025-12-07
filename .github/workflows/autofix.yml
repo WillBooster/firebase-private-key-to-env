@@ -1,0 +1,9 @@
+name: Fix code automatically
+on:
+  pull_request:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    uses: WillBooster/reusable-workflows/.github/workflows/autofix.yml@main

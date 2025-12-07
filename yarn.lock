@@ -1382,8 +1382,8 @@ __metadata:
   linkType: hard
 
 "@eslint/eslintrc@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "@eslint/eslintrc@npm:3.3.1"
+  version: 3.3.3
+  resolution: "@eslint/eslintrc@npm:3.3.3"
   dependencies:
     ajv: "npm:^6.12.4"
     debug: "npm:^4.3.2"
@@ -1391,10 +1391,10 @@ __metadata:
     globals: "npm:^14.0.0"
     ignore: "npm:^5.2.0"
     import-fresh: "npm:^3.2.1"
-    js-yaml: "npm:^4.1.0"
+    js-yaml: "npm:^4.1.1"
     minimatch: "npm:^3.1.2"
     strip-json-comments: "npm:^3.1.1"
-  checksum: 10c0/b0e63f3bc5cce4555f791a4e487bf999173fcf27c65e1ab6e7d63634d8a43b33c3693e79f192cbff486d7df1be8ebb2bd2edc6e70ddd486cbfa84a359a3e3b41
+  checksum: 10c0/532c7acc7ddd042724c28b1f020bd7bf148fcd4653bb44c8314168b5f772508c842ce4ee070299cac51c5c5757d2124bdcfcef5551c8c58ff9986e3e17f2260d
   languageName: node
   linkType: hard
 
@@ -1907,9 +1907,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-js@npm:11.4.6":
-  version: 11.4.6
-  resolution: "@willbooster/eslint-config-js@npm:11.4.6"
+"@willbooster/eslint-config-js@npm:11.4.7":
+  version: 11.4.7
+  resolution: "@willbooster/eslint-config-js@npm:11.4.7"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -1921,15 +1921,15 @@ __metadata:
     eslint-plugin-unicorn: ">=57"
     eslint-plugin-unused-imports: ">=4"
     globals: ">=16"
-  checksum: 10c0/81b430fb9f197d1c2cba4c30f552910855b66155bc0921585a872ce11b8139e8d5d03b229def8f1bc91d431a228b92869753d3971355219e8b3863f515c514cb
+  checksum: 10c0/b471a9d346a13cfc676956db97d21c45bcef661b3cfe699e24431f11be4218f262da94af7422c516a78e9976b87c366371c62bae0f537dff753426f263786ec9
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-ts@npm:11.4.11":
-  version: 11.4.11
-  resolution: "@willbooster/eslint-config-ts@npm:11.4.11"
+"@willbooster/eslint-config-ts@npm:11.4.12":
+  version: 11.4.12
+  resolution: "@willbooster/eslint-config-ts@npm:11.4.12"
   dependencies:
-    "@willbooster/eslint-config-js": "npm:11.4.6"
+    "@willbooster/eslint-config-js": "npm:11.4.7"
   peerDependencies:
     "@eslint/js": ">=9"
     eslint: ">=9"
@@ -1944,17 +1944,17 @@ __metadata:
     globals: ">=16"
     typescript: ">=5"
     typescript-eslint: ">=8"
-  checksum: 10c0/77b99e30bce519088175037798132f48fb6e204fdeb7cabba290ee62deca31824dc0c54249701663f99e9bcc0464d23a821bcce419d93022c1c6c35b61598779
+  checksum: 10c0/779135b4dd224887b9ab93b0b401c0dffdeb3c2b908ade4b23938b729f3a56c00cc0c5db7b8f1c4d64a8d2aef0f9691e214912bb86159063dd5d1e83067951c3
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:10.2.2":
-  version: 10.2.2
-  resolution: "@willbooster/prettier-config@npm:10.2.2"
+"@willbooster/prettier-config@npm:10.2.4":
+  version: 10.2.4
+  resolution: "@willbooster/prettier-config@npm:10.2.4"
   peerDependencies:
     prettier: ">=3"
     prettier-plugin-java: ">=2.6"
-  checksum: 10c0/37cf0ec7301b51450747fd65dda7e36971c93f17e64b76927007caf0ea45ba43117b30d98ecd9916e6d38350999c01d63cdf6b35f4400d5e3c449d6123b11e5d
+  checksum: 10c0/0216f838b7c62add1d9a988ee955fa7d0e9f458367203a84151741afa53a77201c2937fa4efa816a962050fff938374160177240eda1ea6fdcca2d8c5f29d3d9
   languageName: node
   linkType: hard
 
@@ -2159,11 +2159,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.8.25":
-  version: 2.8.31
-  resolution: "baseline-browser-mapping@npm:2.8.31"
+  version: 2.8.32
+  resolution: "baseline-browser-mapping@npm:2.8.32"
   bin:
     baseline-browser-mapping: dist/cli.js
-  checksum: 10c0/e0b2fcb41bf36c5e27e122a4d4cc9e5f6b9747d31cd0bd1f771aee9c490eb1e01cd11a31db32286bd4b9221139ee332b5ab7e3893c18a4dbd0ce8915a9e180ed
+  checksum: 10c0/6c4aa0338ad177e946a27412de11769fb6474389a59cc03e13e0538d7285a94052a11525d46bb605ddb913a0c8a1180292d6f05cd4d6bc05bbf597c26bf5ce66
   languageName: node
   linkType: hard
 
@@ -2613,9 +2613,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.249":
-  version: 1.5.260
-  resolution: "electron-to-chromium@npm:1.5.260"
-  checksum: 10c0/5be308adbe7f9b370f628eb3ae35528bccc8e8592ee4848f9dfa308af658deaa87e915dd6929b6993e712929e7e6828f40434814506476ae11051381ee423fdf
+  version: 1.5.262
+  resolution: "electron-to-chromium@npm:1.5.262"
+  checksum: 10c0/4e4e3a307f662991145fd0bbd9045e17af547987a9dc33c30239b1a7b60874989f9b71c636b6c7d2b9052777344d4358a7cf76924203873a392ea1568bf88e5d
   languageName: node
   linkType: hard
 
@@ -3173,8 +3173,8 @@ __metadata:
     "@types/micromatch": "npm:4.0.10"
     "@types/node": "npm:24.10.1"
     "@types/yargs": "npm:17.0.35"
-    "@willbooster/eslint-config-ts": "npm:11.4.11"
-    "@willbooster/prettier-config": "npm:10.2.2"
+    "@willbooster/eslint-config-ts": "npm:11.4.12"
+    "@willbooster/prettier-config": "npm:10.2.4"
     core-js: "npm:3.47.0"
     eslint: "npm:9.39.1"
     eslint-config-flat-gitignore: "npm:2.1.0"
@@ -3983,7 +3983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.1.0":
+"js-yaml@npm:^4.1.1":
   version: 4.1.1
   resolution: "js-yaml@npm:4.1.1"
   dependencies:
@@ -4151,9 +4151,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0, lru-cache@npm:^11.2.1":
-  version: 11.2.2
-  resolution: "lru-cache@npm:11.2.2"
-  checksum: 10c0/72d7831bbebc85e2bdefe01047ee5584db69d641c48d7a509e86f66f6ee111b30af7ec3bd68a967d47b69a4b1fa8bbf3872630bd06a63b6735e6f0a5f1c8e83d
+  version: 11.2.4
+  resolution: "lru-cache@npm:11.2.4"
+  checksum: 10c0/4a24f9b17537619f9144d7b8e42cd5a225efdfd7076ebe7b5e7dc02b860a818455201e67fbf000765233fe7e339d3c8229fc815e9b58ee6ede511e07608c19b2
   languageName: node
   linkType: hard
 
@@ -4713,9 +4713,9 @@ __metadata:
   linkType: hard
 
 "proc-log@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "proc-log@npm:6.0.0"
-  checksum: 10c0/40c5e2b4c55e395a3bd72e38cba9c26e58598a1f4844fa6a115716d5231a0919f46aa8e351147035d91583ad39a794593615078c948bc001fe3beb99276be776
+  version: 6.1.0
+  resolution: "proc-log@npm:6.1.0"
+  checksum: 10c0/4f178d4062733ead9d71a9b1ab24ebcecdfe2250916a5b1555f04fe2eda972a0ec76fbaa8df1ad9c02707add6749219d118a4fc46dc56bdfe4dde4b47d80bb82
   languageName: node
   linkType: hard
 
@@ -5754,11 +5754,11 @@ __metadata:
   linkType: hard
 
 "yaml@npm:^2.8.1":
-  version: 2.8.1
-  resolution: "yaml@npm:2.8.1"
+  version: 2.8.2
+  resolution: "yaml@npm:2.8.2"
   bin:
     yaml: bin.mjs
-  checksum: 10c0/7c587be00d9303d2ae1566e03bc5bc7fe978ba0d9bf39cc418c3139d37929dfcb93a230d9749f2cb578b6aa5d9ebebc322415e4b653cb83acd8bc0bc321707f3
+  checksum: 10c0/703e4dc1e34b324aa66876d63618dcacb9ed49f7e7fe9b70f1e703645be8d640f68ab84f12b86df8ac960bac37acf5513e115de7c970940617ce0343c8c9cd96
   languageName: node
   linkType: hard
 
