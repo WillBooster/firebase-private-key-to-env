@@ -8,6 +8,7 @@
     "importHelpers": false,
     "module": "ESNext",
     "moduleResolution": "Node",
+    "noEmit": true,
     "noUncheckedIndexedAccess": true,
     "outDir": "dist",
     "resolveJsonModule": true,
@@ -15,8 +16,10 @@
     "sourceMap": true,
     "strict": true,
     "target": "ESNext",
-    "typeRoots": ["./node_modules/@types", "./@types"]
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "types": ["node"]
   },
   "exclude": ["test/fixtures"],
+  "extends": ["@tsconfig/node-lts/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],
   "include": ["scripts/**/*", "src/**/*", "test/**/*"]
 }
