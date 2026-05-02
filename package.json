@@ -10,8 +10,6 @@
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
-    "check-all-for-ai": "yarn check-for-ai && yarn test",
-    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn format-code",
     "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
@@ -20,7 +18,7 @@
     "prepare": "lefthook install || true",
     "start": "babel-node -x .js,.jsx,.es6,.es,.ts src/index.ts",
     "test": "echo \"No tests configured\"",
-    "typecheck": "tsgo --noEmit",
+    "typecheck": "wb typecheck",
     "verify": "wb verify",
     "verify-full": "wb verify --full"
   },
@@ -40,7 +38,7 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/node": "24.12.2",
     "@types/yargs": "17.0.35",
-    "@typescript/native-preview": "7.0.0-dev.20260426.1",
+    "@typescript/native-preview": "7.0.0-dev.20260421.2",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
     "@willbooster/wb": "13.12.10",
