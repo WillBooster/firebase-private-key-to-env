@@ -1704,66 +1704,66 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260524.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260524.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260524.1"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260524.1"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260524.1"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260524.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260524.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview@npm:7.0.0-dev.20260518.1":
-  version: 7.0.0-dev.20260518.1
-  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260518.1"
+"@typescript/native-preview@npm:7.0.0-dev.20260524.1":
+  version: 7.0.0-dev.20260524.1
+  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260524.1"
   dependencies:
-    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260518.1"
-    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260518.1"
-    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260518.1"
-    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260518.1"
-    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260518.1"
-    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260518.1"
-    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260518.1"
+    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260524.1"
+    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260524.1"
+    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260524.1"
+    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260524.1"
+    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260524.1"
+    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260524.1"
+    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260524.1"
   dependenciesMeta:
     "@typescript/native-preview-darwin-arm64":
       optional: true
@@ -1781,7 +1781,7 @@ __metadata:
       optional: true
   bin:
     tsgo: bin/tsgo.js
-  checksum: 10c0/5a920f52f3e010f0a26aa6316c3260078ae99edfacd0d69aee6d8cc60aa1f63948db4689dc399a40c07ac4aa9b069db437359579567c28f311526e6863054906
+  checksum: 10c0/24241dcde3ae6d81c40d834e06ee0c78453131b4fb36b6fcd1dc954b97300d4784b61c69e57c7b07f50bd69bea0c2a75d30b11262b2c6425d8294391ae9dbacd
   languageName: node
   linkType: hard
 
@@ -2505,12 +2505,12 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:24.12.4"
     "@types/yargs": "npm:17.0.35"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260518.1"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260524.1"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "npm:1.4.6"
     "@willbooster/wb": "npm:13.20.0"
     core-js: "npm:3.49.0"
-    lefthook: "npm:2.1.6"
+    lefthook: "npm:2.1.8"
     oxfmt: "npm:0.51.0"
     oxlint: "npm:1.66.0"
     oxlint-tsgolint: "npm:0.23.0"
@@ -3158,90 +3158,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lefthook-darwin-arm64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-darwin-arm64@npm:2.1.6"
+"lefthook-darwin-arm64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-darwin-arm64@npm:2.1.8"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-darwin-x64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-darwin-x64@npm:2.1.6"
+"lefthook-darwin-x64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-darwin-x64@npm:2.1.8"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-freebsd-arm64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-freebsd-arm64@npm:2.1.6"
+"lefthook-freebsd-arm64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-freebsd-arm64@npm:2.1.8"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-freebsd-x64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-freebsd-x64@npm:2.1.6"
+"lefthook-freebsd-x64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-freebsd-x64@npm:2.1.8"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-linux-arm64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-linux-arm64@npm:2.1.6"
+"lefthook-linux-arm64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-linux-arm64@npm:2.1.8"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-linux-x64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-linux-x64@npm:2.1.6"
+"lefthook-linux-x64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-linux-x64@npm:2.1.8"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-openbsd-arm64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-openbsd-arm64@npm:2.1.6"
+"lefthook-openbsd-arm64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-openbsd-arm64@npm:2.1.8"
   conditions: os=openbsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-openbsd-x64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-openbsd-x64@npm:2.1.6"
+"lefthook-openbsd-x64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-openbsd-x64@npm:2.1.8"
   conditions: os=openbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook-windows-arm64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-windows-arm64@npm:2.1.6"
+"lefthook-windows-arm64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-windows-arm64@npm:2.1.8"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"lefthook-windows-x64@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook-windows-x64@npm:2.1.6"
+"lefthook-windows-x64@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook-windows-x64@npm:2.1.8"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"lefthook@npm:2.1.6":
-  version: 2.1.6
-  resolution: "lefthook@npm:2.1.6"
+"lefthook@npm:2.1.8":
+  version: 2.1.8
+  resolution: "lefthook@npm:2.1.8"
   dependencies:
-    lefthook-darwin-arm64: "npm:2.1.6"
-    lefthook-darwin-x64: "npm:2.1.6"
-    lefthook-freebsd-arm64: "npm:2.1.6"
-    lefthook-freebsd-x64: "npm:2.1.6"
-    lefthook-linux-arm64: "npm:2.1.6"
-    lefthook-linux-x64: "npm:2.1.6"
-    lefthook-openbsd-arm64: "npm:2.1.6"
-    lefthook-openbsd-x64: "npm:2.1.6"
-    lefthook-windows-arm64: "npm:2.1.6"
-    lefthook-windows-x64: "npm:2.1.6"
+    lefthook-darwin-arm64: "npm:2.1.8"
+    lefthook-darwin-x64: "npm:2.1.8"
+    lefthook-freebsd-arm64: "npm:2.1.8"
+    lefthook-freebsd-x64: "npm:2.1.8"
+    lefthook-linux-arm64: "npm:2.1.8"
+    lefthook-linux-x64: "npm:2.1.8"
+    lefthook-openbsd-arm64: "npm:2.1.8"
+    lefthook-openbsd-x64: "npm:2.1.8"
+    lefthook-windows-arm64: "npm:2.1.8"
+    lefthook-windows-x64: "npm:2.1.8"
   dependenciesMeta:
     lefthook-darwin-arm64:
       optional: true
@@ -3265,7 +3265,7 @@ __metadata:
       optional: true
   bin:
     lefthook: bin/index.js
-  checksum: 10c0/3ccbe60951ebf59e35e02ca10dc8942a4455ec106f0f14a5fed2e40f000b5b57190594f3be87715d5a9a8b0cf93de33902cbd3c94688e116ffc07ad1760cfe9e
+  checksum: 10c0/a2d35b19b8dfa81323571d04091607b181f5c46addefcd210ccde8c659fa9675195d4d433c88f76cd8f84778d408737a2077e9ba479ccfcb08bace54aa22eba0
   languageName: node
   linkType: hard
 
