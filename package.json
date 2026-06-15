@@ -41,14 +41,14 @@
     "@typescript/native-preview": "7.0.0-dev.20260608.1",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.8",
-    "@willbooster/wb": "13.22.13",
+    "@willbooster/wb": "13.22.16",
     "lefthook": "2.1.9",
-    "oxfmt": "0.54.0",
-    "oxlint": "1.69.0",
+    "oxfmt": "0.55.0",
+    "oxlint": "1.70.0",
     "oxlint-tsgolint": "0.23.0",
     "sort-package-json": "4.0.0"
   },
-  "packageManager": "yarn@4.16.0",
+  "packageManager": "yarn@4.17.0",
   "publishConfig": {
     "access": "public"
   }
