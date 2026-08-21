@@ -24,7 +24,7 @@
         "@types/yargs": "17.0.35",
         "@willbooster/oxfmt-config": "1.2.2",
         "@willbooster/oxlint-config": "1.4.8",
-        "@willbooster/wb": "21.7.2",
+        "@willbooster/wb": "21.7.3",
         "lefthook": "2.1.10",
         "oxfmt": "0.62.0",
         "oxlint": "1.77.0",
@@ -395,7 +395,7 @@
 
     "@willbooster/oxlint-config": ["@willbooster/oxlint-config@1.4.8", "", { "peerDependencies": { "oxlint": ">=1.60.0", "oxlint-tsgolint": ">=0.18.1" } }, "sha512-i3WWcAc1N6QzA91321dJFGUxXYuuXG4bj12pKlyjCmQRqrulvshFW35PUcaRdw1pVr7I7zHEGK1WUIjbkBd3Vg=="],
 
-    "@willbooster/wb": ["@willbooster/wb@21.7.2", "", { "dependencies": { "chalk": "6.0.0", "dotenv": "17.4.2", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.3", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.7.1", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-gKBSxk3YgRr4R0zeQv+4xDYC+bZ0+LSXXCaih8rMrojcVyelU5wVysy+Cuepx33lnb+ZZZ5X5BLcoDh+hEb3JQ=="],
+    "@willbooster/wb": ["@willbooster/wb@21.7.3", "", { "dependencies": { "chalk": "6.0.0", "dotenv": "17.4.2", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.3", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.7.1", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-/fZtgkIUiz0yGa3xBckVEzUx0tQtX1lsCHSmyqq7gkOyjBy01wbiXYFaA5Jwbuvg20PhqG/PSV8qGewyLs7ZoA=="],
 
     "ansi-regex": ["ansi-regex@6.2.2", "", {}, "sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg=="],
 
