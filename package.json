@@ -23,7 +23,7 @@
     "verify-full": "bun wb verify --full"
   },
   "dependencies": {
-    "core-js": "3.49.0",
+    "core-js": "3.50.0",
     "yargs": "18.1.0"
   },
   "devDependencies": {
