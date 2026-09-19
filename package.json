@@ -23,7 +23,7 @@
     "verify-full": "bun wb verify --full"
   },
   "dependencies": {
-    "core-js": "3.49.0",
+    "core-js": "3.50.0",
     "yargs": "18.1.0"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "@types/yargs": "17.0.35",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.8",
-    "@willbooster/wb": "22.3.3",
+    "@willbooster/wb": "22.4.0",
     "lefthook": "2.1.12",
     "oxfmt": "0.67.0",
     "oxlint": "1.82.0",
