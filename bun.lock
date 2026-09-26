@@ -5,7 +5,7 @@
     "": {
       "name": "firebase-private-key-to-env",
       "dependencies": {
-        "core-js": "3.49.0",
+        "core-js": "3.50.0",
         "yargs": "18.1.0",
       },
       "devDependencies": {
@@ -24,7 +24,7 @@
         "@types/yargs": "17.0.35",
         "@willbooster/oxfmt-config": "1.2.2",
         "@willbooster/oxlint-config": "1.4.8",
-        "@willbooster/wb": "22.7.2",
+        "@willbooster/wb": "22.8.0",
         "lefthook": "2.1.14",
         "oxfmt": "0.68.0",
         "oxlint": "1.83.0",
@@ -423,7 +423,7 @@
 
     "@willbooster/oxlint-config": ["@willbooster/oxlint-config@1.4.8", "", { "peerDependencies": { "oxlint": ">=1.60.0", "oxlint-tsgolint": ">=0.18.1" } }, "sha512-i3WWcAc1N6QzA91321dJFGUxXYuuXG4bj12pKlyjCmQRqrulvshFW35PUcaRdw1pVr7I7zHEGK1WUIjbkBd3Vg=="],
 
-    "@willbooster/wb": ["@willbooster/wb@22.7.2", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.0", "dotenv": "18.0.1", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.8.0", "textlint-rule-no-zero-width-spaces": "1.0.1", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-G8zIRBT0nNhBI89xzq/gyULVrCIJdtTQ7QZYyXgHb57tgAk/P2T/jjL4GpMrJR2BUFnvnUn4y+TTsSPPp9AZ6g=="],
+    "@willbooster/wb": ["@willbooster/wb@22.8.0", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.0", "dotenv": "18.0.1", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.8.0", "textlint-rule-no-zero-width-spaces": "1.0.1", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-bkHrUwegs2k5oU2Ic4UPnbrb3hoYyJjQaLIuimczcjeS+YamqRoGD1/hktMR+65K/6bDicj+kggMUkBGjEP+Dw=="],
 
     "ansi-regex": ["ansi-regex@6.3.0", "", {}, "sha512-WpDfL7NO6j7tH88IDBNVdUJxDh9nmCteAVW9dsep846XdwF4naCBK+/tGLX3KJgcpgMRXCFlTM2hKGoK9FsdrQ=="],
 
@@ -471,7 +471,7 @@
 
     "convert-source-map": ["convert-source-map@2.0.0", "", {}, "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg=="],
 
-    "core-js": ["core-js@3.49.0", "", {}, "sha512-es1U2+YTtzpwkxVLwAFdSpaIMyQaq0PBgm3YD1W3Qpsn1NAmO3KSgZfu+oGSWVu6NvLHoHCV/aYcsE5wiB7ALg=="],
+    "core-js": ["core-js@3.50.0", "", {}, "sha512-BRWgOLKkFeCgRudR6zrs8p9XJZcE14grzKMMssoYrk6krtuEZ7MTKPIY5RzOnqsEKIR9kst7wNzphttraT+Yqw=="],
 
     "core-js-compat": ["core-js-compat@3.50.0", "", { "dependencies": { "browserslist": "^4.28.7" } }, "sha512-XGpFGbMLHwSt74YLTKho7Ib242qi6O8MSX+sRokV4oz7iKXvQWGYZthjIhjRGMxjzVkAubBO512dKGYcefmX3Q=="],
 
