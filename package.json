@@ -27,8 +27,8 @@
     "verify-full": "bun wb verify --full"
   },
   "dependencies": {
-    "core-js": "3.49.0",
-    "yargs": "18.1.0"
+    "core-js": "3.51.0",
+    "yargs": "18.2.0"
   },
   "devDependencies": {
     "@babel/cli": "8.0.6",
