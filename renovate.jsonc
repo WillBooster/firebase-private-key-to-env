@@ -3,6 +3,7 @@
   "extends": ["github>WillBooster/willbooster-configs:renovate.jsonc"],
   "packageRules": [
     // 26.0.1: The Node 26 base removes moduleResolution (https://github.com/tsconfig/bases/pull/367), exposing the bundler setting inherited from @tsconfig/bun alongside module NodeNext. Verification reports this combination invalid; keeping the update requires a configuration patch. No newer node-lts release is available.
-    { "matchPackageNames": ["@tsconfig/node-lts"], "allowedVersions": "!/^26\\.0\\.1$/" },
+    // 26.0.0: The Node 26 base removes moduleResolution, leaving bundler inherited from @tsconfig/bun incompatible with module NodeNext; this requires a configuration patch. The later 26.0.1 has the same issue: https://github.com/WillBooster/firebase-private-key-to-env/pull/793 and https://github.com/tsconfig/bases/pull/367.
+    { "matchPackageNames": ["@tsconfig/node-lts"], "allowedVersions": "!/^(26\\.0\\.1|26\\.0\\.0)$/" },
   ],
 }
